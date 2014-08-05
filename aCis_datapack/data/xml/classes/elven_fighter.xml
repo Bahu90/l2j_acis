@@ -1,0 +1,2133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<class id="18" parentId="-1">
+		<set name="className" val="Elf Fighter" />
+		<set name="raceId" val="1" />
+		<set name="str" val="36" />
+		<set name="con" val="36" />
+		<set name="dex" val="35" />
+		<set name="int" val="23" />
+		<set name="wit" val="14" />
+		<set name="men" val="26" />
+		<set name="pAtk" val="4" />
+		<set name="pDef" val="80" />
+		<set name="mAtk" val="6" />
+		<set name="mDef" val="41" />
+		<set name="runSpd" val="125" />
+		<set name="spawnX" val="45978" />
+		<set name="spawnY" val="41196" />
+		<set name="spawnZ" val="-3440" />
+		<set name="radius" val="7" />
+		<set name="height" val="24" />
+		<set name="hp" val="89.0" />
+		<set name="lvlHpAdd" val="12.74" />
+		<set name="lvlHpMod" val="0.37" />
+		<set name="cp" val="36.1" />
+		<set name="lvlCpAdd" val="3.38" />
+		<set name="lvlCpMod" val="0.22" />
+		<set name="mp" val="30.0" />
+		<set name="lvlMpAdd" val="5.0" />
+		<set name="lvlMpMod" val="0.22" />
+		<set name="baseLvl" val="1" />
+		<skillTrees>
+			<!-- Power Strike -->
+			<skill id="3" lvl="1" sp="50" minLvl="5" />
+			<skill id="3" lvl="2" sp="50" minLvl="5" />
+			<skill id="3" lvl="3" sp="50" minLvl="5" />
+			<skill id="3" lvl="4" sp="310" minLvl="10" />
+			<skill id="3" lvl="5" sp="310" minLvl="10" />
+			<skill id="3" lvl="6" sp="310" minLvl="10" />
+			<skill id="3" lvl="7" sp="1100" minLvl="15" />
+			<skill id="3" lvl="8" sp="1100" minLvl="15" />
+			<skill id="3" lvl="9" sp="1100" minLvl="15" />
+			<!-- Mortal Blow -->
+			<skill id="16" lvl="1" sp="50" minLvl="5" />
+			<skill id="16" lvl="2" sp="50" minLvl="5" />
+			<skill id="16" lvl="3" sp="50" minLvl="5" />
+			<skill id="16" lvl="4" sp="310" minLvl="10" />
+			<skill id="16" lvl="5" sp="310" minLvl="10" />
+			<skill id="16" lvl="6" sp="310" minLvl="10" />
+			<skill id="16" lvl="7" sp="1100" minLvl="15" />
+			<skill id="16" lvl="8" sp="1100" minLvl="15" />
+			<skill id="16" lvl="9" sp="1100" minLvl="15" />
+			<!-- Power Shot -->
+			<skill id="56" lvl="1" sp="50" minLvl="5" />
+			<skill id="56" lvl="2" sp="50" minLvl="5" />
+			<skill id="56" lvl="3" sp="50" minLvl="5" />
+			<skill id="56" lvl="4" sp="310" minLvl="10" />
+			<skill id="56" lvl="5" sp="310" minLvl="10" />
+			<skill id="56" lvl="6" sp="310" minLvl="10" />
+			<skill id="56" lvl="7" sp="1100" minLvl="15" />
+			<skill id="56" lvl="8" sp="1100" minLvl="15" />
+			<skill id="56" lvl="9" sp="1100" minLvl="15" />
+			<!-- Elemental Heal -->
+			<skill id="58" lvl="1" sp="1100" minLvl="15" />
+			<skill id="58" lvl="2" sp="1100" minLvl="15" />
+			<skill id="58" lvl="3" sp="1100" minLvl="15" />
+			<!-- Attack Aura -->
+			<skill id="77" lvl="1" sp="910" minLvl="10" />
+			<!-- Defense Aura -->
+			<skill id="91" lvl="1" sp="160" minLvl="5" />
+			<!-- Weapon Mastery -->
+			<skill id="141" lvl="1" sp="160" minLvl="5" />
+			<skill id="141" lvl="2" sp="910" minLvl="10" />
+			<skill id="141" lvl="3" sp="3300" minLvl="15" />
+			<!-- Armor Mastery -->
+			<skill id="142" lvl="1" sp="160" minLvl="5" />
+			<skill id="142" lvl="2" sp="460" minLvl="10" />
+			<skill id="142" lvl="3" sp="460" minLvl="10" />
+			<skill id="142" lvl="4" sp="1700" minLvl="15" />
+			<skill id="142" lvl="5" sp="1700" minLvl="15" />
+			<!-- Lucky -->
+			<skill id="194" lvl="1" sp="0" minLvl="1" />
+			<!-- Expertises -->
+			<skill id="239" lvl="1" sp="0" minLvl="20" />
+			<skill id="239" lvl="2" sp="0" minLvl="40" />
+			<skill id="239" lvl="3" sp="0" minLvl="52" />
+			<skill id="239" lvl="4" sp="0" minLvl="61" />
+			<skill id="239" lvl="5" sp="0" minLvl="76" />
+			<!-- Create Common Item -->
+			<skill id="1320" lvl="1" sp="0" minLvl="1" />
+			<skill id="1320" lvl="2" sp="0" minLvl="20" />
+			<skill id="1320" lvl="3" sp="0" minLvl="28" />
+			<skill id="1320" lvl="4" sp="0" minLvl="36" />
+			<skill id="1320" lvl="5" sp="0" minLvl="43" />
+			<skill id="1320" lvl="6" sp="0" minLvl="49" />
+			<skill id="1320" lvl="7" sp="0" minLvl="55" />
+			<skill id="1320" lvl="8" sp="0" minLvl="62" />
+			<skill id="1320" lvl="9" sp="0" minLvl="70" />
+			<!-- Common Craft -->
+			<skill id="1322" lvl="1" sp="0" minLvl="1" />
+		</skillTrees>
+		<items val="1147;1146;10;2369;5588" />
+	</class>
+	<class id="19" parentId="18">
+		<set name="className" val="Elf Knight" />
+		<set name="raceId" val="1" />
+		<set name="str" val="36" />
+		<set name="con" val="36" />
+		<set name="dex" val="35" />
+		<set name="int" val="23" />
+		<set name="wit" val="14" />
+		<set name="men" val="26" />
+		<set name="pAtk" val="4" />
+		<set name="pDef" val="80" />
+		<set name="mAtk" val="6" />
+		<set name="mDef" val="41" />
+		<set name="runSpd" val="125" />
+		<set name="spawnX" val="45978" />
+		<set name="spawnY" val="41196" />
+		<set name="spawnZ" val="-3440" />
+		<set name="radius" val="7" />
+		<set name="height" val="24" />
+		<set name="hp" val="355.0" />
+		<set name="lvlHpAdd" val="33.0" />
+		<set name="lvlHpMod" val="0.37" />
+		<set name="cp" val="177.5" />
+		<set name="lvlCpAdd" val="16.5" />
+		<set name="lvlCpMod" val="0.22" />
+		<set name="mp" val="144.0" />
+		<set name="lvlMpAdd" val="16.5" />
+		<set name="lvlMpMod" val="0.22" />
+		<set name="baseLvl" val="20" />
+		<skillTrees>
+			<!-- Charm -->
+			<skill id="15" lvl="1" sp="1400" minLvl="20" />
+			<skill id="15" lvl="2" sp="1400" minLvl="20" />
+			<skill id="15" lvl="3" sp="1400" minLvl="20" />
+			<skill id="15" lvl="4" sp="2900" minLvl="24" />
+			<skill id="15" lvl="5" sp="2900" minLvl="24" />
+			<skill id="15" lvl="6" sp="2900" minLvl="24" />
+			<skill id="15" lvl="7" sp="5000" minLvl="28" />
+			<skill id="15" lvl="8" sp="5000" minLvl="28" />
+			<skill id="15" lvl="9" sp="5000" minLvl="28" />
+			<skill id="15" lvl="10" sp="8300" minLvl="32" />
+			<skill id="15" lvl="11" sp="8300" minLvl="32" />
+			<skill id="15" lvl="12" sp="8300" minLvl="32" />
+			<skill id="15" lvl="13" sp="13000" minLvl="36" />
+			<skill id="15" lvl="14" sp="13000" minLvl="36" />
+			<skill id="15" lvl="15" sp="13000" minLvl="36" />
+			<!-- Poison Recovery -->
+			<skill id="21" lvl="1" sp="4100" minLvl="20" />
+			<!-- Aggression -->
+			<skill id="28" lvl="1" sp="2900" minLvl="24" />
+			<skill id="28" lvl="2" sp="2900" minLvl="24" />
+			<skill id="28" lvl="3" sp="2900" minLvl="24" />
+			<skill id="28" lvl="4" sp="5000" minLvl="28" />
+			<skill id="28" lvl="5" sp="5000" minLvl="28" />
+			<skill id="28" lvl="6" sp="5000" minLvl="28" />
+			<skill id="28" lvl="7" sp="8300" minLvl="32" />
+			<skill id="28" lvl="8" sp="8300" minLvl="32" />
+			<skill id="28" lvl="9" sp="8300" minLvl="32" />
+			<skill id="28" lvl="10" sp="13000" minLvl="36" />
+			<skill id="28" lvl="11" sp="13000" minLvl="36" />
+			<skill id="28" lvl="12" sp="13000" minLvl="36" />
+			<!-- Elemental Heal -->
+			<skill id="58" lvl="4" sp="1400" minLvl="20" />
+			<skill id="58" lvl="5" sp="1400" minLvl="20" />
+			<skill id="58" lvl="6" sp="1400" minLvl="20" />
+			<skill id="58" lvl="7" sp="2900" minLvl="24" />
+			<skill id="58" lvl="8" sp="2900" minLvl="24" />
+			<skill id="58" lvl="9" sp="2900" minLvl="24" />
+			<skill id="58" lvl="10" sp="5000" minLvl="28" />
+			<skill id="58" lvl="11" sp="5000" minLvl="28" />
+			<skill id="58" lvl="12" sp="5000" minLvl="28" />
+			<skill id="58" lvl="13" sp="8300" minLvl="32" />
+			<skill id="58" lvl="14" sp="8300" minLvl="32" />
+			<skill id="58" lvl="15" sp="8300" minLvl="32" />
+			<skill id="58" lvl="16" sp="13000" minLvl="36" />
+			<skill id="58" lvl="17" sp="13000" minLvl="36" />
+			<skill id="58" lvl="18" sp="13000" minLvl="36" />
+			<!-- Cure Bleeding -->
+			<skill id="61" lvl="1" sp="8800" minLvl="24" />
+			<!-- Attack Aura -->
+			<skill id="77" lvl="2" sp="15000" minLvl="28" />
+			<!-- Defense Aura -->
+			<skill id="91" lvl="2" sp="4100" minLvl="20" />
+			<!-- Entangle -->
+			<skill id="102" lvl="1" sp="39000" minLvl="36" />
+			<!-- Ultimate Defense -->
+			<skill id="110" lvl="1" sp="4100" minLvl="20" />
+			<!-- Deflect Arrow -->
+			<skill id="112" lvl="1" sp="8800" minLvl="24" />
+			<skill id="112" lvl="2" sp="25000" minLvl="32" />
+			<!-- Magic Resistance -->
+			<skill id="147" lvl="1" sp="2100" minLvl="20" />
+			<skill id="147" lvl="2" sp="2100" minLvl="20" />
+			<skill id="147" lvl="3" sp="2900" minLvl="24" />
+			<skill id="147" lvl="4" sp="2900" minLvl="24" />
+			<skill id="147" lvl="5" sp="2900" minLvl="24" />
+			<skill id="147" lvl="6" sp="5000" minLvl="28" />
+			<skill id="147" lvl="7" sp="5000" minLvl="28" />
+			<skill id="147" lvl="8" sp="5000" minLvl="28" />
+			<skill id="147" lvl="9" sp="8300" minLvl="32" />
+			<skill id="147" lvl="10" sp="8300" minLvl="32" />
+			<skill id="147" lvl="11" sp="8300" minLvl="32" />
+			<skill id="147" lvl="12" sp="13000" minLvl="36" />
+			<skill id="147" lvl="13" sp="13000" minLvl="36" />
+			<skill id="147" lvl="14" sp="13000" minLvl="36" />
+			<!-- Shield Mastery -->
+			<skill id="153" lvl="1" sp="4100" minLvl="20" />
+			<skill id="153" lvl="2" sp="15000" minLvl="28" />
+			<!-- Focus Mind -->
+			<skill id="191" lvl="1" sp="39000" minLvl="36" />
+			<!-- Sword/Blunt Weapon Mastery -->
+			<skill id="217" lvl="1" sp="4100" minLvl="20" />
+			<skill id="217" lvl="2" sp="8800" minLvl="24" />
+			<skill id="217" lvl="3" sp="7500" minLvl="28" />
+			<skill id="217" lvl="4" sp="7500" minLvl="28" />
+			<skill id="217" lvl="5" sp="13000" minLvl="32" />
+			<skill id="217" lvl="6" sp="13000" minLvl="32" />
+			<skill id="217" lvl="7" sp="19000" minLvl="36" />
+			<skill id="217" lvl="8" sp="19000" minLvl="36" />
+			<!-- Sprint -->
+			<skill id="230" lvl="1" sp="25000" minLvl="32" />
+			<!-- Heavy Armor Mastery -->
+			<skill id="232" lvl="1" sp="1400" minLvl="20" />
+			<skill id="232" lvl="2" sp="1400" minLvl="20" />
+			<skill id="232" lvl="3" sp="1400" minLvl="20" />
+			<skill id="232" lvl="4" sp="2900" minLvl="24" />
+			<skill id="232" lvl="5" sp="2900" minLvl="24" />
+			<skill id="232" lvl="6" sp="2900" minLvl="24" />
+			<skill id="232" lvl="7" sp="5000" minLvl="28" />
+			<skill id="232" lvl="8" sp="5000" minLvl="28" />
+			<skill id="232" lvl="9" sp="5000" minLvl="28" />
+			<skill id="232" lvl="10" sp="8300" minLvl="32" />
+			<skill id="232" lvl="11" sp="8300" minLvl="32" />
+			<skill id="232" lvl="12" sp="8300" minLvl="32" />
+			<skill id="232" lvl="13" sp="13000" minLvl="36" />
+			<skill id="232" lvl="14" sp="13000" minLvl="36" />
+			<skill id="232" lvl="15" sp="13000" minLvl="36" />
+		</skillTrees>
+	</class>
+	<class id="22" parentId="18">
+		<set name="className" val="Scout" />
+		<set name="raceId" val="1" />
+		<set name="str" val="36" />
+		<set name="con" val="36" />
+		<set name="dex" val="35" />
+		<set name="int" val="23" />
+		<set name="wit" val="14" />
+		<set name="men" val="26" />
+		<set name="pAtk" val="4" />
+		<set name="pDef" val="80" />
+		<set name="mAtk" val="6" />
+		<set name="mDef" val="41" />
+		<set name="runSpd" val="125" />
+		<set name="spawnX" val="45978" />
+		<set name="spawnY" val="41196" />
+		<set name="spawnZ" val="-3440" />
+		<set name="radius" val="7" />
+		<set name="height" val="24" />
+		<set name="hp" val="355.0" />
+		<set name="lvlHpAdd" val="30.8" />
+		<set name="lvlHpMod" val="0.37" />
+		<set name="cp" val="177.5" />
+		<set name="lvlCpAdd" val="14.40" />
+		<set name="lvlCpMod" val="0.22" />
+		<set name="mp" val="144.0" />
+		<set name="lvlMpAdd" val="12.32" />
+		<set name="lvlMpMod" val="0.22" />
+		<set name="baseLvl" val="20" />
+		<skillTrees>
+			<!-- Charm -->
+			<skill id="15" lvl="1" sp="950" minLvl="20" />
+			<skill id="15" lvl="2" sp="950" minLvl="20" />
+			<skill id="15" lvl="3" sp="950" minLvl="20" />
+			<skill id="15" lvl="4" sp="1700" minLvl="24" />
+			<skill id="15" lvl="5" sp="1700" minLvl="24" />
+			<skill id="15" lvl="6" sp="1700" minLvl="24" />
+			<skill id="15" lvl="7" sp="3100" minLvl="28" />
+			<skill id="15" lvl="8" sp="3100" minLvl="28" />
+			<skill id="15" lvl="9" sp="3100" minLvl="28" />
+			<skill id="15" lvl="10" sp="5100" minLvl="32" />
+			<skill id="15" lvl="11" sp="5100" minLvl="32" />
+			<skill id="15" lvl="12" sp="5100" minLvl="32" />
+			<skill id="15" lvl="13" sp="8600" minLvl="36" />
+			<skill id="15" lvl="14" sp="8600" minLvl="36" />
+			<skill id="15" lvl="15" sp="8600" minLvl="36" />
+			<!-- Mortal Blow -->
+			<skill id="16" lvl="10" sp="1200" minLvl="20" />
+			<skill id="16" lvl="11" sp="1200" minLvl="20" />
+			<skill id="16" lvl="12" sp="1200" minLvl="20" />
+			<skill id="16" lvl="13" sp="1700" minLvl="24" />
+			<skill id="16" lvl="14" sp="1700" minLvl="24" />
+			<skill id="16" lvl="15" sp="1700" minLvl="24" />
+			<skill id="16" lvl="16" sp="3100" minLvl="28" />
+			<skill id="16" lvl="17" sp="3100" minLvl="28" />
+			<skill id="16" lvl="18" sp="3100" minLvl="28" />
+			<skill id="16" lvl="19" sp="5100" minLvl="32" />
+			<skill id="16" lvl="20" sp="5100" minLvl="32" />
+			<skill id="16" lvl="21" sp="5100" minLvl="32" />
+			<skill id="16" lvl="22" sp="8600" minLvl="36" />
+			<skill id="16" lvl="23" sp="8600" minLvl="36" />
+			<skill id="16" lvl="24" sp="8600" minLvl="36" />
+			<!-- Poison Recovery -->
+			<skill id="21" lvl="1" sp="5000" minLvl="24" />
+			<!-- Unlock -->
+			<skill id="27" lvl="1" sp="2800" minLvl="20" />
+			<skill id="27" lvl="2" sp="5000" minLvl="24" />
+			<skill id="27" lvl="3" sp="9200" minLvl="28" />
+			<skill id="27" lvl="4" sp="15000" minLvl="32" />
+			<skill id="27" lvl="5" sp="26000" minLvl="36" />
+			<!-- Power Shot -->
+			<skill id="56" lvl="10" sp="1200" minLvl="20" />
+			<skill id="56" lvl="11" sp="1200" minLvl="20" />
+			<skill id="56" lvl="12" sp="1200" minLvl="20" />
+			<skill id="56" lvl="13" sp="1700" minLvl="24" />
+			<skill id="56" lvl="14" sp="1700" minLvl="24" />
+			<skill id="56" lvl="15" sp="1700" minLvl="24" />
+			<skill id="56" lvl="16" sp="3100" minLvl="28" />
+			<skill id="56" lvl="17" sp="3100" minLvl="28" />
+			<skill id="56" lvl="18" sp="3100" minLvl="28" />
+			<skill id="56" lvl="19" sp="5100" minLvl="32" />
+			<skill id="56" lvl="20" sp="5100" minLvl="32" />
+			<skill id="56" lvl="21" sp="5100" minLvl="32" />
+			<skill id="56" lvl="22" sp="8600" minLvl="36" />
+			<skill id="56" lvl="23" sp="8600" minLvl="36" />
+			<skill id="56" lvl="24" sp="8600" minLvl="36" />
+			<!-- Elemental Heal -->
+			<skill id="58" lvl="4" sp="1200" minLvl="20" />
+			<skill id="58" lvl="5" sp="1200" minLvl="20" />
+			<skill id="58" lvl="6" sp="1200" minLvl="20" />
+			<skill id="58" lvl="7" sp="1700" minLvl="24" />
+			<skill id="58" lvl="8" sp="1700" minLvl="24" />
+			<skill id="58" lvl="9" sp="1700" minLvl="24" />
+			<skill id="58" lvl="10" sp="3100" minLvl="28" />
+			<skill id="58" lvl="11" sp="3100" minLvl="28" />
+			<skill id="58" lvl="12" sp="3100" minLvl="28" />
+			<skill id="58" lvl="13" sp="5100" minLvl="32" />
+			<skill id="58" lvl="14" sp="5100" minLvl="32" />
+			<skill id="58" lvl="15" sp="5100" minLvl="32" />
+			<skill id="58" lvl="16" sp="8600" minLvl="36" />
+			<skill id="58" lvl="17" sp="8600" minLvl="36" />
+			<skill id="58" lvl="18" sp="8600" minLvl="36" />
+			<!-- Cure Bleeding -->
+			<skill id="61" lvl="1" sp="5000" minLvl="24" />
+			<!-- Attack Aura -->
+			<skill id="77" lvl="2" sp="9200" minLvl="28" />
+			<!-- Defense Aura -->
+			<skill id="91" lvl="2" sp="2800" minLvl="20" />
+			<!-- Bleed -->
+			<skill id="96" lvl="1" sp="5000" minLvl="24" />
+			<skill id="96" lvl="2" sp="15000" minLvl="32" />
+			<!-- Rapid Shot -->
+			<skill id="99" lvl="1" sp="15000" minLvl="32" />
+			<!-- Stunning Shot -->
+			<skill id="101" lvl="1" sp="8600" minLvl="36" />
+			<skill id="101" lvl="2" sp="8600" minLvl="36" />
+			<skill id="101" lvl="3" sp="8600" minLvl="36" />
+			<!-- Entangle -->
+			<skill id="102" lvl="1" sp="26000" minLvl="36" />
+			<!-- Ultimate Evasion -->
+			<skill id="111" lvl="1" sp="9200" minLvl="28" />
+			<!-- Long Shot -->
+			<skill id="113" lvl="1" sp="2800" minLvl="20" />
+			<!-- Critical Chance -->
+			<skill id="137" lvl="1" sp="15000" minLvl="32" />
+			<!-- Quick Step -->
+			<skill id="169" lvl="1" sp="9200" minLvl="28" />
+			<!-- Esprit -->
+			<skill id="171" lvl="1" sp="26000" minLvl="36" />
+			<!-- Acrobatics -->
+			<skill id="173" lvl="1" sp="2800" minLvl="20" />
+			<!-- Breath Boost -->
+			<skill id="195" lvl="1" sp="2800" minLvl="20" />
+			<!-- Boost Evasion -->
+			<skill id="198" lvl="1" sp="5000" minLvl="24" />
+			<!-- Bow Mastery -->
+			<skill id="208" lvl="1" sp="950" minLvl="20" />
+			<skill id="208" lvl="2" sp="950" minLvl="20" />
+			<skill id="208" lvl="3" sp="950" minLvl="20" />
+			<skill id="208" lvl="4" sp="1700" minLvl="24" />
+			<skill id="208" lvl="5" sp="1700" minLvl="24" />
+			<skill id="208" lvl="6" sp="1700" minLvl="24" />
+			<skill id="208" lvl="7" sp="3100" minLvl="28" />
+			<skill id="208" lvl="8" sp="3100" minLvl="28" />
+			<skill id="208" lvl="9" sp="3100" minLvl="28" />
+			<skill id="208" lvl="10" sp="5100" minLvl="32" />
+			<skill id="208" lvl="11" sp="5100" minLvl="32" />
+			<skill id="208" lvl="12" sp="5100" minLvl="32" />
+			<skill id="208" lvl="13" sp="8600" minLvl="36" />
+			<skill id="208" lvl="14" sp="8600" minLvl="36" />
+			<skill id="208" lvl="15" sp="8600" minLvl="36" />
+			<!-- Dagger Mastery -->
+			<skill id="209" lvl="1" sp="2800" minLvl="20" />
+			<skill id="209" lvl="2" sp="5000" minLvl="24" />
+			<skill id="209" lvl="3" sp="4600" minLvl="28" />
+			<skill id="209" lvl="4" sp="4600" minLvl="28" />
+			<skill id="209" lvl="5" sp="7700" minLvl="32" />
+			<skill id="209" lvl="6" sp="7700" minLvl="32" />
+			<skill id="209" lvl="7" sp="13000" minLvl="36" />
+			<skill id="209" lvl="8" sp="13000" minLvl="36" />
+			<!-- Acrobatic Move -->
+			<skill id="225" lvl="1" sp="9200" minLvl="28" />
+			<!-- Sprint -->
+			<skill id="230" lvl="1" sp="15000" minLvl="32" />
+			<!-- Light Armor Mastery -->
+			<skill id="233" lvl="1" sp="1400" minLvl="20" />
+			<skill id="233" lvl="2" sp="1400" minLvl="20" />
+			<skill id="233" lvl="3" sp="2500" minLvl="24" />
+			<skill id="233" lvl="4" sp="2500" minLvl="24" />
+			<skill id="233" lvl="5" sp="4600" minLvl="28" />
+			<skill id="233" lvl="6" sp="4600" minLvl="28" />
+			<skill id="233" lvl="7" sp="7700" minLvl="32" />
+			<skill id="233" lvl="8" sp="7700" minLvl="32" />
+			<skill id="233" lvl="9" sp="13000" minLvl="36" />
+			<skill id="233" lvl="10" sp="13000" minLvl="36" />
+			<!-- Accuracy -->
+			<skill id="256" lvl="1" sp="5000" minLvl="24" />
+			<!-- Vicious Stance -->
+			<skill id="312" lvl="1" sp="2800" minLvl="20" />
+			<skill id="312" lvl="2" sp="5000" minLvl="24" />
+			<skill id="312" lvl="3" sp="9200" minLvl="28" />
+			<skill id="312" lvl="4" sp="15000" minLvl="32" />
+			<skill id="312" lvl="5" sp="26000" minLvl="36" />
+		</skillTrees>
+	</class>
+	<class id="20" parentId="19">
+		<set name="className" val="Temple Knight" />
+		<set name="raceId" val="1" />
+		<set name="str" val="36" />
+		<set name="con" val="36" />
+		<set name="dex" val="35" />
+		<set name="int" val="23" />
+		<set name="wit" val="14" />
+		<set name="men" val="26" />
+		<set name="pAtk" val="4" />
+		<set name="pDef" val="80" />
+		<set name="mAtk" val="6" />
+		<set name="mDef" val="41" />
+		<set name="runSpd" val="125" />
+		<set name="spawnX" val="45978" />
+		<set name="spawnY" val="41196" />
+		<set name="spawnZ" val="-3440" />
+		<set name="radius" val="7" />
+		<set name="height" val="24" />
+		<set name="hp" val="1072.0" />
+		<set name="lvlHpAdd" val="52.0" />
+		<set name="lvlHpMod" val="0.37" />
+		<set name="cp" val="643.2" />
+		<set name="lvlCpAdd" val="31.2" />
+		<set name="lvlCpMod" val="0.22" />
+		<set name="mp" val="359.1" />
+		<set name="lvlMpAdd" val="31.2" />
+		<set name="lvlMpMod" val="0.22" />
+		<set name="baseLvl" val="40" />
+		<skillTrees>
+			<!-- Summon Storm Cubic -->
+			<skill id="10" lvl="1" sp="30000" minLvl="40" />
+			<skill id="10" lvl="2" sp="50000" minLvl="46" />
+			<skill id="10" lvl="3" sp="115000" minLvl="52" />
+			<skill id="10" lvl="4" sp="171000" minLvl="58" />
+			<skill id="10" lvl="5" sp="250000" minLvl="62" />
+			<skill id="10" lvl="6" sp="470000" minLvl="66" />
+			<skill id="10" lvl="7" sp="580000" minLvl="70" />
+			<skill id="10" lvl="8" sp="1730000" minLvl="74" />
+			<!-- Charm -->
+			<skill id="15" lvl="16" sp="10000" minLvl="40" />
+			<skill id="15" lvl="17" sp="10000" minLvl="40" />
+			<skill id="15" lvl="18" sp="10000" minLvl="40" />
+			<skill id="15" lvl="19" sp="11000" minLvl="43" />
+			<skill id="15" lvl="20" sp="11000" minLvl="43" />
+			<skill id="15" lvl="21" sp="11000" minLvl="43" />
+			<skill id="15" lvl="22" sp="17000" minLvl="46" />
+			<skill id="15" lvl="23" sp="17000" minLvl="46" />
+			<skill id="15" lvl="24" sp="17000" minLvl="46" />
+			<skill id="15" lvl="25" sp="27000" minLvl="49" />
+			<skill id="15" lvl="26" sp="27000" minLvl="49" />
+			<skill id="15" lvl="27" sp="27000" minLvl="49" />
+			<skill id="15" lvl="28" sp="38000" minLvl="52" />
+			<skill id="15" lvl="29" sp="38000" minLvl="52" />
+			<skill id="15" lvl="30" sp="38000" minLvl="52" />
+			<skill id="15" lvl="31" sp="52000" minLvl="55" />
+			<skill id="15" lvl="32" sp="52000" minLvl="55" />
+			<skill id="15" lvl="33" sp="52000" minLvl="55" />
+			<skill id="15" lvl="34" sp="57000" minLvl="58" />
+			<skill id="15" lvl="35" sp="57000" minLvl="58" />
+			<skill id="15" lvl="36" sp="57000" minLvl="58" />
+			<skill id="15" lvl="37" sp="97000" minLvl="60" />
+			<skill id="15" lvl="38" sp="97000" minLvl="60" />
+			<skill id="15" lvl="39" sp="130000" minLvl="62" />
+			<skill id="15" lvl="40" sp="130000" minLvl="62" />
+			<skill id="15" lvl="41" sp="160000" minLvl="64" />
+			<skill id="15" lvl="42" sp="160000" minLvl="64" />
+			<skill id="15" lvl="43" sp="230000" minLvl="66" />
+			<skill id="15" lvl="44" sp="230000" minLvl="66" />
+			<skill id="15" lvl="45" sp="280000" minLvl="68" />
+			<skill id="15" lvl="46" sp="280000" minLvl="68" />
+			<skill id="15" lvl="47" sp="290000" minLvl="70" />
+			<skill id="15" lvl="48" sp="290000" minLvl="70" />
+			<skill id="15" lvl="49" sp="400000" minLvl="72" />
+			<skill id="15" lvl="50" sp="400000" minLvl="72" />
+			<skill id="15" lvl="51" sp="870000" minLvl="74" />
+			<skill id="15" lvl="52" sp="870000" minLvl="74" />
+			<!-- Aura of Hate -->
+			<skill id="18" lvl="1" sp="10000" minLvl="40" />
+			<skill id="18" lvl="2" sp="10000" minLvl="40" />
+			<skill id="18" lvl="3" sp="10000" minLvl="40" />
+			<skill id="18" lvl="4" sp="11000" minLvl="43" />
+			<skill id="18" lvl="5" sp="11000" minLvl="43" />
+			<skill id="18" lvl="6" sp="11000" minLvl="43" />
+			<skill id="18" lvl="7" sp="17000" minLvl="46" />
+			<skill id="18" lvl="8" sp="17000" minLvl="46" />
+			<skill id="18" lvl="9" sp="17000" minLvl="46" />
+			<skill id="18" lvl="10" sp="27000" minLvl="49" />
+			<skill id="18" lvl="11" sp="27000" minLvl="49" />
+			<skill id="18" lvl="12" sp="27000" minLvl="49" />
+			<skill id="18" lvl="13" sp="38000" minLvl="52" />
+			<skill id="18" lvl="14" sp="38000" minLvl="52" />
+			<skill id="18" lvl="15" sp="38000" minLvl="52" />
+			<skill id="18" lvl="16" sp="52000" minLvl="55" />
+			<skill id="18" lvl="17" sp="52000" minLvl="55" />
+			<skill id="18" lvl="18" sp="52000" minLvl="55" />
+			<skill id="18" lvl="19" sp="57000" minLvl="58" />
+			<skill id="18" lvl="20" sp="57000" minLvl="58" />
+			<skill id="18" lvl="21" sp="57000" minLvl="58" />
+			<skill id="18" lvl="22" sp="97000" minLvl="60" />
+			<skill id="18" lvl="23" sp="97000" minLvl="60" />
+			<skill id="18" lvl="24" sp="130000" minLvl="62" />
+			<skill id="18" lvl="25" sp="130000" minLvl="62" />
+			<skill id="18" lvl="26" sp="160000" minLvl="64" />
+			<skill id="18" lvl="27" sp="160000" minLvl="64" />
+			<skill id="18" lvl="28" sp="230000" minLvl="66" />
+			<skill id="18" lvl="29" sp="230000" minLvl="66" />
+			<skill id="18" lvl="30" sp="280000" minLvl="68" />
+			<skill id="18" lvl="31" sp="280000" minLvl="68" />
+			<skill id="18" lvl="32" sp="290000" minLvl="70" />
+			<skill id="18" lvl="33" sp="290000" minLvl="70" />
+			<skill id="18" lvl="34" sp="400000" minLvl="72" />
+			<skill id="18" lvl="35" sp="400000" minLvl="72" />
+			<skill id="18" lvl="36" sp="870000" minLvl="74" />
+			<skill id="18" lvl="37" sp="870000" minLvl="74" />
+			<!-- Poison Recovery -->
+			<skill id="21" lvl="2" sp="30000" minLvl="40" />
+			<skill id="21" lvl="3" sp="193000" minLvl="60" />
+			<!-- Aggression -->
+			<skill id="28" lvl="13" sp="10000" minLvl="40" />
+			<skill id="28" lvl="14" sp="10000" minLvl="40" />
+			<skill id="28" lvl="15" sp="10000" minLvl="40" />
+			<skill id="28" lvl="16" sp="11000" minLvl="43" />
+			<skill id="28" lvl="17" sp="11000" minLvl="43" />
+			<skill id="28" lvl="18" sp="11000" minLvl="43" />
+			<skill id="28" lvl="19" sp="17000" minLvl="46" />
+			<skill id="28" lvl="20" sp="17000" minLvl="46" />
+			<skill id="28" lvl="21" sp="17000" minLvl="46" />
+			<skill id="28" lvl="22" sp="27000" minLvl="49" />
+			<skill id="28" lvl="23" sp="27000" minLvl="49" />
+			<skill id="28" lvl="24" sp="27000" minLvl="49" />
+			<skill id="28" lvl="25" sp="38000" minLvl="52" />
+			<skill id="28" lvl="26" sp="38000" minLvl="52" />
+			<skill id="28" lvl="27" sp="38000" minLvl="52" />
+			<skill id="28" lvl="28" sp="52000" minLvl="55" />
+			<skill id="28" lvl="29" sp="52000" minLvl="55" />
+			<skill id="28" lvl="30" sp="52000" minLvl="55" />
+			<skill id="28" lvl="31" sp="57000" minLvl="58" />
+			<skill id="28" lvl="32" sp="57000" minLvl="58" />
+			<skill id="28" lvl="33" sp="57000" minLvl="58" />
+			<skill id="28" lvl="34" sp="97000" minLvl="60" />
+			<skill id="28" lvl="35" sp="97000" minLvl="60" />
+			<skill id="28" lvl="36" sp="130000" minLvl="62" />
+			<skill id="28" lvl="37" sp="130000" minLvl="62" />
+			<skill id="28" lvl="38" sp="160000" minLvl="64" />
+			<skill id="28" lvl="39" sp="160000" minLvl="64" />
+			<skill id="28" lvl="40" sp="230000" minLvl="66" />
+			<skill id="28" lvl="41" sp="230000" minLvl="66" />
+			<skill id="28" lvl="42" sp="280000" minLvl="68" />
+			<skill id="28" lvl="43" sp="280000" minLvl="68" />
+			<skill id="28" lvl="44" sp="290000" minLvl="70" />
+			<skill id="28" lvl="45" sp="290000" minLvl="70" />
+			<skill id="28" lvl="46" sp="400000" minLvl="72" />
+			<skill id="28" lvl="47" sp="400000" minLvl="72" />
+			<skill id="28" lvl="48" sp="870000" minLvl="74" />
+			<skill id="28" lvl="49" sp="870000" minLvl="74" />
+			<!-- Elemental Heal -->
+			<skill id="58" lvl="19" sp="10000" minLvl="40" />
+			<skill id="58" lvl="20" sp="10000" minLvl="40" />
+			<skill id="58" lvl="21" sp="10000" minLvl="40" />
+			<skill id="58" lvl="22" sp="11000" minLvl="43" />
+			<skill id="58" lvl="23" sp="11000" minLvl="43" />
+			<skill id="58" lvl="24" sp="11000" minLvl="43" />
+			<skill id="58" lvl="25" sp="17000" minLvl="46" />
+			<skill id="58" lvl="26" sp="17000" minLvl="46" />
+			<skill id="58" lvl="27" sp="17000" minLvl="46" />
+			<skill id="58" lvl="28" sp="27000" minLvl="49" />
+			<skill id="58" lvl="29" sp="27000" minLvl="49" />
+			<skill id="58" lvl="30" sp="27000" minLvl="49" />
+			<skill id="58" lvl="31" sp="38000" minLvl="52" />
+			<skill id="58" lvl="32" sp="38000" minLvl="52" />
+			<skill id="58" lvl="33" sp="38000" minLvl="52" />
+			<skill id="58" lvl="34" sp="52000" minLvl="55" />
+			<skill id="58" lvl="35" sp="52000" minLvl="55" />
+			<skill id="58" lvl="36" sp="52000" minLvl="55" />
+			<skill id="58" lvl="37" sp="57000" minLvl="58" />
+			<skill id="58" lvl="38" sp="57000" minLvl="58" />
+			<skill id="58" lvl="39" sp="57000" minLvl="58" />
+			<skill id="58" lvl="40" sp="97000" minLvl="60" />
+			<skill id="58" lvl="41" sp="97000" minLvl="60" />
+			<skill id="58" lvl="42" sp="130000" minLvl="62" />
+			<skill id="58" lvl="43" sp="130000" minLvl="62" />
+			<skill id="58" lvl="44" sp="160000" minLvl="64" />
+			<skill id="58" lvl="45" sp="160000" minLvl="64" />
+			<skill id="58" lvl="46" sp="230000" minLvl="66" />
+			<skill id="58" lvl="47" sp="230000" minLvl="66" />
+			<skill id="58" lvl="48" sp="280000" minLvl="68" />
+			<skill id="58" lvl="49" sp="280000" minLvl="68" />
+			<skill id="58" lvl="50" sp="290000" minLvl="70" />
+			<skill id="58" lvl="51" sp="290000" minLvl="70" />
+			<skill id="58" lvl="52" sp="400000" minLvl="72" />
+			<skill id="58" lvl="53" sp="400000" minLvl="72" />
+			<skill id="58" lvl="54" sp="870000" minLvl="74" />
+			<skill id="58" lvl="55" sp="870000" minLvl="74" />
+			<!-- Cure Bleeding -->
+			<skill id="61" lvl="2" sp="50000" minLvl="46" />
+			<skill id="61" lvl="3" sp="250000" minLvl="62" />
+			<!-- Summon Life Cubic -->
+			<skill id="67" lvl="1" sp="33000" minLvl="43" />
+			<skill id="67" lvl="2" sp="82000" minLvl="49" />
+			<skill id="67" lvl="3" sp="157000" minLvl="55" />
+			<skill id="67" lvl="4" sp="193000" minLvl="60" />
+			<skill id="67" lvl="5" sp="320000" minLvl="64" />
+			<skill id="67" lvl="6" sp="560000" minLvl="68" />
+			<skill id="67" lvl="7" sp="800000" minLvl="72" />
+			<!-- Entangle -->
+			<skill id="102" lvl="2" sp="30000" minLvl="40" />
+			<skill id="102" lvl="3" sp="33000" minLvl="43" />
+			<skill id="102" lvl="4" sp="50000" minLvl="46" />
+			<skill id="102" lvl="5" sp="82000" minLvl="49" />
+			<skill id="102" lvl="6" sp="115000" minLvl="52" />
+			<skill id="102" lvl="7" sp="157000" minLvl="55" />
+			<skill id="102" lvl="8" sp="171000" minLvl="58" />
+			<skill id="102" lvl="9" sp="193000" minLvl="60" />
+			<skill id="102" lvl="10" sp="250000" minLvl="62" />
+			<skill id="102" lvl="11" sp="320000" minLvl="64" />
+			<skill id="102" lvl="12" sp="470000" minLvl="66" />
+			<skill id="102" lvl="13" sp="560000" minLvl="68" />
+			<skill id="102" lvl="14" sp="580000" minLvl="70" />
+			<skill id="102" lvl="15" sp="800000" minLvl="72" />
+			<skill id="102" lvl="16" sp="1730000" minLvl="74" />
+			<!-- Holy Aura -->
+			<skill id="107" lvl="1" sp="171000" minLvl="58" />
+			<skill id="107" lvl="2" sp="193000" minLvl="60" />
+			<skill id="107" lvl="3" sp="250000" minLvl="62" />
+			<skill id="107" lvl="4" sp="320000" minLvl="64" />
+			<skill id="107" lvl="5" sp="470000" minLvl="66" />
+			<skill id="107" lvl="6" sp="560000" minLvl="68" />
+			<skill id="107" lvl="7" sp="580000" minLvl="70" />
+			<skill id="107" lvl="8" sp="800000" minLvl="72" />
+			<skill id="107" lvl="9" sp="1730000" minLvl="74" />
+			<!-- Ultimate Defense -->
+			<skill id="110" lvl="2" sp="50000" minLvl="46" />
+			<!-- Deflect Arrow -->
+			<skill id="112" lvl="3" sp="33000" minLvl="43" />
+			<skill id="112" lvl="4" sp="82000" minLvl="49" />
+			<!-- Spirit Barrier -->
+			<skill id="123" lvl="1" sp="30000" minLvl="40" />
+			<skill id="123" lvl="2" sp="82000" minLvl="49" />
+			<skill id="123" lvl="3" sp="171000" minLvl="58" />
+			<!-- Cubic Mastery -->
+			<skill id="143" lvl="1" sp="33000" minLvl="43" />
+			<skill id="143" lvl="2" sp="157000" minLvl="55" />
+			<!-- Magic Resistance -->
+			<skill id="147" lvl="15" sp="10000" minLvl="40" />
+			<skill id="147" lvl="16" sp="10000" minLvl="40" />
+			<skill id="147" lvl="17" sp="10000" minLvl="40" />
+			<skill id="147" lvl="18" sp="11000" minLvl="43" />
+			<skill id="147" lvl="19" sp="11000" minLvl="43" />
+			<skill id="147" lvl="20" sp="11000" minLvl="43" />
+			<skill id="147" lvl="21" sp="17000" minLvl="46" />
+			<skill id="147" lvl="22" sp="17000" minLvl="46" />
+			<skill id="147" lvl="23" sp="17000" minLvl="46" />
+			<skill id="147" lvl="24" sp="27000" minLvl="49" />
+			<skill id="147" lvl="25" sp="27000" minLvl="49" />
+			<skill id="147" lvl="26" sp="27000" minLvl="49" />
+			<skill id="147" lvl="27" sp="38000" minLvl="52" />
+			<skill id="147" lvl="28" sp="38000" minLvl="52" />
+			<skill id="147" lvl="29" sp="38000" minLvl="52" />
+			<skill id="147" lvl="30" sp="52000" minLvl="55" />
+			<skill id="147" lvl="31" sp="52000" minLvl="55" />
+			<skill id="147" lvl="32" sp="52000" minLvl="55" />
+			<skill id="147" lvl="33" sp="57000" minLvl="58" />
+			<skill id="147" lvl="34" sp="57000" minLvl="58" />
+			<skill id="147" lvl="35" sp="57000" minLvl="58" />
+			<skill id="147" lvl="36" sp="97000" minLvl="60" />
+			<skill id="147" lvl="37" sp="97000" minLvl="60" />
+			<skill id="147" lvl="38" sp="130000" minLvl="62" />
+			<skill id="147" lvl="39" sp="130000" minLvl="62" />
+			<skill id="147" lvl="40" sp="160000" minLvl="64" />
+			<skill id="147" lvl="41" sp="160000" minLvl="64" />
+			<skill id="147" lvl="42" sp="230000" minLvl="66" />
+			<skill id="147" lvl="43" sp="230000" minLvl="66" />
+			<skill id="147" lvl="44" sp="280000" minLvl="68" />
+			<skill id="147" lvl="45" sp="280000" minLvl="68" />
+			<skill id="147" lvl="46" sp="290000" minLvl="70" />
+			<skill id="147" lvl="47" sp="290000" minLvl="70" />
+			<skill id="147" lvl="48" sp="400000" minLvl="72" />
+			<skill id="147" lvl="49" sp="400000" minLvl="72" />
+			<skill id="147" lvl="50" sp="870000" minLvl="74" />
+			<skill id="147" lvl="51" sp="870000" minLvl="74" />
+			<!-- Shield Mastery -->
+			<skill id="153" lvl="3" sp="30000" minLvl="40" />
+			<skill id="153" lvl="4" sp="115000" minLvl="52" />
+			<!-- Focus Mind -->
+			<skill id="191" lvl="2" sp="33000" minLvl="43" />
+			<skill id="191" lvl="3" sp="82000" minLvl="49" />
+			<skill id="191" lvl="4" sp="157000" minLvl="55" />
+			<skill id="191" lvl="5" sp="320000" minLvl="64" />
+			<skill id="191" lvl="6" sp="800000" minLvl="72" />
+			<!-- Holy Armor -->
+			<skill id="197" lvl="1" sp="30000" minLvl="40" />
+			<skill id="197" lvl="2" sp="50000" minLvl="46" />
+			<!-- Sword/Blunt Weapon Mastery -->
+			<skill id="217" lvl="9" sp="10000" minLvl="40" />
+			<skill id="217" lvl="10" sp="10000" minLvl="40" />
+			<skill id="217" lvl="11" sp="10000" minLvl="40" />
+			<skill id="217" lvl="12" sp="11000" minLvl="43" />
+			<skill id="217" lvl="13" sp="11000" minLvl="43" />
+			<skill id="217" lvl="14" sp="11000" minLvl="43" />
+			<skill id="217" lvl="15" sp="17000" minLvl="46" />
+			<skill id="217" lvl="16" sp="17000" minLvl="46" />
+			<skill id="217" lvl="17" sp="17000" minLvl="46" />
+			<skill id="217" lvl="18" sp="27000" minLvl="49" />
+			<skill id="217" lvl="19" sp="27000" minLvl="49" />
+			<skill id="217" lvl="20" sp="27000" minLvl="49" />
+			<skill id="217" lvl="21" sp="38000" minLvl="52" />
+			<skill id="217" lvl="22" sp="38000" minLvl="52" />
+			<skill id="217" lvl="23" sp="38000" minLvl="52" />
+			<skill id="217" lvl="24" sp="52000" minLvl="55" />
+			<skill id="217" lvl="25" sp="52000" minLvl="55" />
+			<skill id="217" lvl="26" sp="52000" minLvl="55" />
+			<skill id="217" lvl="27" sp="57000" minLvl="58" />
+			<skill id="217" lvl="28" sp="57000" minLvl="58" />
+			<skill id="217" lvl="29" sp="57000" minLvl="58" />
+			<skill id="217" lvl="30" sp="97000" minLvl="60" />
+			<skill id="217" lvl="31" sp="97000" minLvl="60" />
+			<skill id="217" lvl="32" sp="130000" minLvl="62" />
+			<skill id="217" lvl="33" sp="130000" minLvl="62" />
+			<skill id="217" lvl="34" sp="160000" minLvl="64" />
+			<skill id="217" lvl="35" sp="160000" minLvl="64" />
+			<skill id="217" lvl="36" sp="230000" minLvl="66" />
+			<skill id="217" lvl="37" sp="230000" minLvl="66" />
+			<skill id="217" lvl="38" sp="280000" minLvl="68" />
+			<skill id="217" lvl="39" sp="280000" minLvl="68" />
+			<skill id="217" lvl="40" sp="290000" minLvl="70" />
+			<skill id="217" lvl="41" sp="290000" minLvl="70" />
+			<skill id="217" lvl="42" sp="400000" minLvl="72" />
+			<skill id="217" lvl="43" sp="400000" minLvl="72" />
+			<skill id="217" lvl="44" sp="870000" minLvl="74" />
+			<skill id="217" lvl="45" sp="870000" minLvl="74" />
+			<!-- Sprint -->
+			<skill id="230" lvl="2" sp="115000" minLvl="52" />
+			<!-- Heavy Armor Mastery -->
+			<skill id="232" lvl="16" sp="10000" minLvl="40" />
+			<skill id="232" lvl="17" sp="10000" minLvl="40" />
+			<skill id="232" lvl="18" sp="10000" minLvl="40" />
+			<skill id="232" lvl="19" sp="11000" minLvl="43" />
+			<skill id="232" lvl="20" sp="11000" minLvl="43" />
+			<skill id="232" lvl="21" sp="11000" minLvl="43" />
+			<skill id="232" lvl="22" sp="17000" minLvl="46" />
+			<skill id="232" lvl="23" sp="17000" minLvl="46" />
+			<skill id="232" lvl="24" sp="17000" minLvl="46" />
+			<skill id="232" lvl="25" sp="27000" minLvl="49" />
+			<skill id="232" lvl="26" sp="27000" minLvl="49" />
+			<skill id="232" lvl="27" sp="27000" minLvl="49" />
+			<skill id="232" lvl="28" sp="38000" minLvl="52" />
+			<skill id="232" lvl="29" sp="38000" minLvl="52" />
+			<skill id="232" lvl="30" sp="38000" minLvl="52" />
+			<skill id="232" lvl="31" sp="52000" minLvl="55" />
+			<skill id="232" lvl="32" sp="52000" minLvl="55" />
+			<skill id="232" lvl="33" sp="52000" minLvl="55" />
+			<skill id="232" lvl="34" sp="57000" minLvl="58" />
+			<skill id="232" lvl="35" sp="57000" minLvl="58" />
+			<skill id="232" lvl="36" sp="57000" minLvl="58" />
+			<skill id="232" lvl="37" sp="97000" minLvl="60" />
+			<skill id="232" lvl="38" sp="97000" minLvl="60" />
+			<skill id="232" lvl="39" sp="130000" minLvl="62" />
+			<skill id="232" lvl="40" sp="130000" minLvl="62" />
+			<skill id="232" lvl="41" sp="160000" minLvl="64" />
+			<skill id="232" lvl="42" sp="160000" minLvl="64" />
+			<skill id="232" lvl="43" sp="230000" minLvl="66" />
+			<skill id="232" lvl="44" sp="230000" minLvl="66" />
+			<skill id="232" lvl="45" sp="280000" minLvl="68" />
+			<skill id="232" lvl="46" sp="280000" minLvl="68" />
+			<skill id="232" lvl="47" sp="290000" minLvl="70" />
+			<skill id="232" lvl="48" sp="290000" minLvl="70" />
+			<skill id="232" lvl="49" sp="400000" minLvl="72" />
+			<skill id="232" lvl="50" sp="400000" minLvl="72" />
+			<skill id="232" lvl="51" sp="870000" minLvl="74" />
+			<skill id="232" lvl="52" sp="870000" minLvl="74" />
+			<!-- Guard Stance -->
+			<skill id="288" lvl="1" sp="33000" minLvl="43" />
+			<skill id="288" lvl="2" sp="115000" minLvl="52" />
+			<skill id="288" lvl="3" sp="250000" minLvl="62" />
+			<skill id="288" lvl="4" sp="580000" minLvl="70" />
+			<!-- Final Fortress -->
+			<skill id="291" lvl="1" sp="115000" minLvl="52" />
+			<skill id="291" lvl="2" sp="157000" minLvl="55" />
+			<skill id="291" lvl="3" sp="171000" minLvl="58" />
+			<skill id="291" lvl="4" sp="193000" minLvl="60" />
+			<skill id="291" lvl="5" sp="250000" minLvl="62" />
+			<skill id="291" lvl="6" sp="320000" minLvl="64" />
+			<skill id="291" lvl="7" sp="470000" minLvl="66" />
+			<skill id="291" lvl="8" sp="560000" minLvl="68" />
+			<skill id="291" lvl="9" sp="580000" minLvl="70" />
+			<skill id="291" lvl="10" sp="800000" minLvl="72" />
+			<skill id="291" lvl="11" sp="1730000" minLvl="74" />
+			<!-- Aegis -->
+			<skill id="316" lvl="1" sp="193000" minLvl="60" />
+			<!-- Shield Fortress -->
+			<skill id="322" lvl="1" sp="320000" minLvl="64" />
+			<skill id="322" lvl="2" sp="470000" minLvl="66" />
+			<skill id="322" lvl="3" sp="560000" minLvl="68" />
+			<skill id="322" lvl="4" sp="580000" minLvl="70" />
+			<skill id="322" lvl="5" sp="800000" minLvl="72" />
+			<skill id="322" lvl="6" sp="1730000" minLvl="74" />
+			<!-- Tribunal -->
+			<skill id="400" lvl="1" sp="157000" minLvl="55" />
+			<skill id="400" lvl="2" sp="171000" minLvl="58" />
+			<skill id="400" lvl="3" sp="193000" minLvl="60" />
+			<skill id="400" lvl="4" sp="250000" minLvl="62" />
+			<skill id="400" lvl="5" sp="320000" minLvl="64" />
+			<skill id="400" lvl="6" sp="470000" minLvl="66" />
+			<skill id="400" lvl="7" sp="560000" minLvl="68" />
+			<skill id="400" lvl="8" sp="580000" minLvl="70" />
+			<skill id="400" lvl="9" sp="800000" minLvl="72" />
+			<skill id="400" lvl="10" sp="1730000" minLvl="74" />
+			<!-- Arrest -->
+			<skill id="402" lvl="1" sp="157000" minLvl="55" />
+			<skill id="402" lvl="2" sp="171000" minLvl="58" />
+			<skill id="402" lvl="3" sp="193000" minLvl="60" />
+			<skill id="402" lvl="4" sp="250000" minLvl="62" />
+			<skill id="402" lvl="5" sp="320000" minLvl="64" />
+			<skill id="402" lvl="6" sp="470000" minLvl="66" />
+			<skill id="402" lvl="7" sp="560000" minLvl="68" />
+			<skill id="402" lvl="8" sp="580000" minLvl="70" />
+			<skill id="402" lvl="9" sp="800000" minLvl="72" />
+			<skill id="402" lvl="10" sp="1730000" minLvl="74" />
+			<!-- Summon Attractive Cubic -->
+			<skill id="449" lvl="1" sp="250000" minLvl="62" />
+			<skill id="449" lvl="2" sp="470000" minLvl="66" />
+			<skill id="449" lvl="3" sp="580000" minLvl="70" />
+			<skill id="449" lvl="4" sp="1730000" minLvl="74" />
+			<!-- Divine Inspiration -->
+			<skill id="1405" lvl="1" sp="0" minLvl="52" />
+			<skill id="1405" lvl="2" sp="0" minLvl="61" />
+		</skillTrees>
+	</class>
+	<class id="21" parentId="19">
+		<set name="className" val="Swordsinger" />
+		<set name="raceId" val="1" />
+		<set name="str" val="36" />
+		<set name="con" val="36" />
+		<set name="dex" val="35" />
+		<set name="int" val="23" />
+		<set name="wit" val="14" />
+		<set name="men" val="26" />
+		<set name="pAtk" val="4" />
+		<set name="pDef" val="80" />
+		<set name="mAtk" val="6" />
+		<set name="mDef" val="41" />
+		<set name="runSpd" val="125" />
+		<set name="spawnX" val="45978" />
+		<set name="spawnY" val="41196" />
+		<set name="spawnZ" val="-3440" />
+		<set name="radius" val="7" />
+		<set name="height" val="24" />
+		<set name="hp" val="1072.0" />
+		<set name="lvlHpAdd" val="54.6" />
+		<set name="lvlHpMod" val="0.37" />
+		<set name="cp" val="536.0" />
+		<set name="lvlCpAdd" val="27.3" />
+		<set name="lvlCpMod" val="0.22" />
+		<set name="mp" val="359.1" />
+		<set name="lvlMpAdd" val="27.3" />
+		<set name="lvlMpMod" val="0.22" />
+		<set name="baseLvl" val="40" />
+		<skillTrees>
+			<!-- Charm -->
+			<skill id="15" lvl="16" sp="16000" minLvl="40" />
+			<skill id="15" lvl="17" sp="16000" minLvl="40" />
+			<skill id="15" lvl="18" sp="16000" minLvl="40" />
+			<skill id="15" lvl="19" sp="19000" minLvl="43" />
+			<skill id="15" lvl="20" sp="19000" minLvl="43" />
+			<skill id="15" lvl="21" sp="19000" minLvl="43" />
+			<skill id="15" lvl="22" sp="29000" minLvl="46" />
+			<skill id="15" lvl="23" sp="29000" minLvl="46" />
+			<skill id="15" lvl="24" sp="29000" minLvl="46" />
+			<skill id="15" lvl="25" sp="41000" minLvl="49" />
+			<skill id="15" lvl="26" sp="41000" minLvl="49" />
+			<skill id="15" lvl="27" sp="41000" minLvl="49" />
+			<skill id="15" lvl="28" sp="71000" minLvl="52" />
+			<skill id="15" lvl="29" sp="71000" minLvl="52" />
+			<skill id="15" lvl="30" sp="71000" minLvl="52" />
+			<skill id="15" lvl="31" sp="73000" minLvl="55" />
+			<skill id="15" lvl="32" sp="73000" minLvl="55" />
+			<skill id="15" lvl="33" sp="73000" minLvl="55" />
+			<skill id="15" lvl="34" sp="89000" minLvl="58" />
+			<skill id="15" lvl="35" sp="89000" minLvl="58" />
+			<skill id="15" lvl="36" sp="89000" minLvl="58" />
+			<skill id="15" lvl="37" sp="161000" minLvl="60" />
+			<skill id="15" lvl="38" sp="161000" minLvl="60" />
+			<skill id="15" lvl="39" sp="220000" minLvl="62" />
+			<skill id="15" lvl="40" sp="220000" minLvl="62" />
+			<skill id="15" lvl="41" sp="270000" minLvl="64" />
+			<skill id="15" lvl="42" sp="270000" minLvl="64" />
+			<skill id="15" lvl="43" sp="440000" minLvl="66" />
+			<skill id="15" lvl="44" sp="440000" minLvl="66" />
+			<skill id="15" lvl="45" sp="490000" minLvl="68" />
+			<skill id="15" lvl="46" sp="490000" minLvl="68" />
+			<skill id="15" lvl="47" sp="580000" minLvl="70" />
+			<skill id="15" lvl="48" sp="580000" minLvl="70" />
+			<skill id="15" lvl="49" sp="670000" minLvl="72" />
+			<skill id="15" lvl="50" sp="670000" minLvl="72" />
+			<skill id="15" lvl="51" sp="1630000" minLvl="74" />
+			<skill id="15" lvl="52" sp="1630000" minLvl="74" />
+			<!-- Poison Recovery -->
+			<skill id="21" lvl="2" sp="49000" minLvl="40" />
+			<skill id="21" lvl="3" sp="322000" minLvl="60" />
+			<!-- Elemental Heal -->
+			<skill id="58" lvl="19" sp="16000" minLvl="40" />
+			<skill id="58" lvl="20" sp="16000" minLvl="40" />
+			<skill id="58" lvl="21" sp="16000" minLvl="40" />
+			<skill id="58" lvl="22" sp="19000" minLvl="43" />
+			<skill id="58" lvl="23" sp="19000" minLvl="43" />
+			<skill id="58" lvl="24" sp="19000" minLvl="43" />
+			<skill id="58" lvl="25" sp="29000" minLvl="46" />
+			<skill id="58" lvl="26" sp="29000" minLvl="46" />
+			<skill id="58" lvl="27" sp="29000" minLvl="46" />
+			<skill id="58" lvl="28" sp="41000" minLvl="49" />
+			<skill id="58" lvl="29" sp="41000" minLvl="49" />
+			<skill id="58" lvl="30" sp="41000" minLvl="49" />
+			<skill id="58" lvl="31" sp="71000" minLvl="52" />
+			<skill id="58" lvl="32" sp="71000" minLvl="52" />
+			<skill id="58" lvl="33" sp="71000" minLvl="52" />
+			<skill id="58" lvl="34" sp="73000" minLvl="55" />
+			<skill id="58" lvl="35" sp="73000" minLvl="55" />
+			<skill id="58" lvl="36" sp="73000" minLvl="55" />
+			<skill id="58" lvl="37" sp="89000" minLvl="58" />
+			<skill id="58" lvl="38" sp="89000" minLvl="58" />
+			<skill id="58" lvl="39" sp="89000" minLvl="58" />
+			<skill id="58" lvl="40" sp="161000" minLvl="60" />
+			<skill id="58" lvl="41" sp="161000" minLvl="60" />
+			<skill id="58" lvl="42" sp="220000" minLvl="62" />
+			<skill id="58" lvl="43" sp="220000" minLvl="62" />
+			<skill id="58" lvl="44" sp="270000" minLvl="64" />
+			<skill id="58" lvl="45" sp="270000" minLvl="64" />
+			<skill id="58" lvl="46" sp="440000" minLvl="66" />
+			<skill id="58" lvl="47" sp="440000" minLvl="66" />
+			<skill id="58" lvl="48" sp="490000" minLvl="68" />
+			<skill id="58" lvl="49" sp="490000" minLvl="68" />
+			<skill id="58" lvl="50" sp="580000" minLvl="70" />
+			<skill id="58" lvl="51" sp="580000" minLvl="70" />
+			<skill id="58" lvl="52" sp="670000" minLvl="72" />
+			<skill id="58" lvl="53" sp="670000" minLvl="72" />
+			<skill id="58" lvl="54" sp="1630000" minLvl="74" />
+			<skill id="58" lvl="55" sp="1630000" minLvl="74" />
+			<!-- Cure Bleeding -->
+			<skill id="61" lvl="2" sp="86000" minLvl="46" />
+			<skill id="61" lvl="3" sp="440000" minLvl="62" />
+			<!-- Sword Symphony -->
+			<skill id="98" lvl="1" sp="220000" minLvl="55" />
+			<skill id="98" lvl="2" sp="322000" minLvl="60" />
+			<skill id="98" lvl="3" sp="530000" minLvl="64" />
+			<skill id="98" lvl="4" sp="980000" minLvl="68" />
+			<skill id="98" lvl="5" sp="1330000" minLvl="72" />
+			<!-- Entangle -->
+			<skill id="102" lvl="2" sp="49000" minLvl="40" />
+			<skill id="102" lvl="3" sp="58000" minLvl="43" />
+			<skill id="102" lvl="4" sp="86000" minLvl="46" />
+			<skill id="102" lvl="5" sp="123000" minLvl="49" />
+			<skill id="102" lvl="6" sp="214000" minLvl="52" />
+			<skill id="102" lvl="7" sp="220000" minLvl="55" />
+			<skill id="102" lvl="8" sp="267000" minLvl="58" />
+			<skill id="102" lvl="9" sp="322000" minLvl="60" />
+			<skill id="102" lvl="10" sp="440000" minLvl="62" />
+			<skill id="102" lvl="11" sp="530000" minLvl="64" />
+			<skill id="102" lvl="12" sp="880000" minLvl="66" />
+			<skill id="102" lvl="13" sp="980000" minLvl="68" />
+			<skill id="102" lvl="14" sp="1160000" minLvl="70" />
+			<skill id="102" lvl="15" sp="1330000" minLvl="72" />
+			<skill id="102" lvl="16" sp="3250000" minLvl="74" />
+			<!-- Spirit Barrier -->
+			<skill id="123" lvl="1" sp="49000" minLvl="40" />
+			<skill id="123" lvl="2" sp="123000" minLvl="49" />
+			<skill id="123" lvl="3" sp="267000" minLvl="58" />
+			<!-- Magic Resistance -->
+			<skill id="147" lvl="15" sp="16000" minLvl="40" />
+			<skill id="147" lvl="16" sp="16000" minLvl="40" />
+			<skill id="147" lvl="17" sp="16000" minLvl="40" />
+			<skill id="147" lvl="18" sp="19000" minLvl="43" />
+			<skill id="147" lvl="19" sp="19000" minLvl="43" />
+			<skill id="147" lvl="20" sp="19000" minLvl="43" />
+			<skill id="147" lvl="21" sp="29000" minLvl="46" />
+			<skill id="147" lvl="22" sp="29000" minLvl="46" />
+			<skill id="147" lvl="23" sp="29000" minLvl="46" />
+			<skill id="147" lvl="24" sp="41000" minLvl="49" />
+			<skill id="147" lvl="25" sp="41000" minLvl="49" />
+			<skill id="147" lvl="26" sp="41000" minLvl="49" />
+			<skill id="147" lvl="27" sp="71000" minLvl="52" />
+			<skill id="147" lvl="28" sp="71000" minLvl="52" />
+			<skill id="147" lvl="29" sp="71000" minLvl="52" />
+			<skill id="147" lvl="30" sp="73000" minLvl="55" />
+			<skill id="147" lvl="31" sp="73000" minLvl="55" />
+			<skill id="147" lvl="32" sp="73000" minLvl="55" />
+			<skill id="147" lvl="33" sp="89000" minLvl="58" />
+			<skill id="147" lvl="34" sp="89000" minLvl="58" />
+			<skill id="147" lvl="35" sp="89000" minLvl="58" />
+			<skill id="147" lvl="36" sp="161000" minLvl="60" />
+			<skill id="147" lvl="37" sp="161000" minLvl="60" />
+			<skill id="147" lvl="38" sp="220000" minLvl="62" />
+			<skill id="147" lvl="39" sp="220000" minLvl="62" />
+			<skill id="147" lvl="40" sp="270000" minLvl="64" />
+			<skill id="147" lvl="41" sp="270000" minLvl="64" />
+			<skill id="147" lvl="42" sp="440000" minLvl="66" />
+			<skill id="147" lvl="43" sp="440000" minLvl="66" />
+			<skill id="147" lvl="44" sp="490000" minLvl="68" />
+			<skill id="147" lvl="45" sp="490000" minLvl="68" />
+			<skill id="147" lvl="46" sp="580000" minLvl="70" />
+			<skill id="147" lvl="47" sp="580000" minLvl="70" />
+			<skill id="147" lvl="48" sp="670000" minLvl="72" />
+			<skill id="147" lvl="49" sp="670000" minLvl="72" />
+			<skill id="147" lvl="50" sp="1630000" minLvl="74" />
+			<skill id="147" lvl="51" sp="1630000" minLvl="74" />
+			<!-- Focus Mind -->
+			<skill id="191" lvl="2" sp="58000" minLvl="43" />
+			<skill id="191" lvl="3" sp="123000" minLvl="49" />
+			<skill id="191" lvl="4" sp="220000" minLvl="55" />
+			<skill id="191" lvl="5" sp="530000" minLvl="64" />
+			<skill id="191" lvl="6" sp="1330000" minLvl="72" />
+			<!-- Holy Blade -->
+			<skill id="196" lvl="1" sp="58000" minLvl="43" />
+			<!-- Sword/Blunt Weapon Mastery -->
+			<skill id="217" lvl="9" sp="16000" minLvl="40" />
+			<skill id="217" lvl="10" sp="16000" minLvl="40" />
+			<skill id="217" lvl="11" sp="16000" minLvl="40" />
+			<skill id="217" lvl="12" sp="19000" minLvl="43" />
+			<skill id="217" lvl="13" sp="19000" minLvl="43" />
+			<skill id="217" lvl="14" sp="19000" minLvl="43" />
+			<skill id="217" lvl="15" sp="29000" minLvl="46" />
+			<skill id="217" lvl="16" sp="29000" minLvl="46" />
+			<skill id="217" lvl="17" sp="29000" minLvl="46" />
+			<skill id="217" lvl="18" sp="41000" minLvl="49" />
+			<skill id="217" lvl="19" sp="41000" minLvl="49" />
+			<skill id="217" lvl="20" sp="41000" minLvl="49" />
+			<skill id="217" lvl="21" sp="71000" minLvl="52" />
+			<skill id="217" lvl="22" sp="71000" minLvl="52" />
+			<skill id="217" lvl="23" sp="71000" minLvl="52" />
+			<skill id="217" lvl="24" sp="73000" minLvl="55" />
+			<skill id="217" lvl="25" sp="73000" minLvl="55" />
+			<skill id="217" lvl="26" sp="73000" minLvl="55" />
+			<skill id="217" lvl="27" sp="89000" minLvl="58" />
+			<skill id="217" lvl="28" sp="89000" minLvl="58" />
+			<skill id="217" lvl="29" sp="89000" minLvl="58" />
+			<skill id="217" lvl="30" sp="161000" minLvl="60" />
+			<skill id="217" lvl="31" sp="161000" minLvl="60" />
+			<skill id="217" lvl="32" sp="220000" minLvl="62" />
+			<skill id="217" lvl="33" sp="220000" minLvl="62" />
+			<skill id="217" lvl="34" sp="270000" minLvl="64" />
+			<skill id="217" lvl="35" sp="270000" minLvl="64" />
+			<skill id="217" lvl="36" sp="440000" minLvl="66" />
+			<skill id="217" lvl="37" sp="440000" minLvl="66" />
+			<skill id="217" lvl="38" sp="490000" minLvl="68" />
+			<skill id="217" lvl="39" sp="490000" minLvl="68" />
+			<skill id="217" lvl="40" sp="580000" minLvl="70" />
+			<skill id="217" lvl="41" sp="580000" minLvl="70" />
+			<skill id="217" lvl="42" sp="670000" minLvl="72" />
+			<skill id="217" lvl="43" sp="670000" minLvl="72" />
+			<skill id="217" lvl="44" sp="1630000" minLvl="74" />
+			<skill id="217" lvl="45" sp="1630000" minLvl="74" />
+			<!-- Sprint -->
+			<skill id="230" lvl="2" sp="214000" minLvl="52" />
+			<!-- Song of Earth -->
+			<skill id="264" lvl="1" sp="220000" minLvl="55" />
+			<!-- Song of Life -->
+			<skill id="265" lvl="1" sp="214000" minLvl="52" />
+			<!-- Song of Water -->
+			<skill id="266" lvl="1" sp="267000" minLvl="58" />
+			<!-- Song of Warding -->
+			<skill id="267" lvl="1" sp="49000" minLvl="40" />
+			<!-- Song of Wind -->
+			<skill id="268" lvl="1" sp="86000" minLvl="46" />
+			<!-- Song of Hunter -->
+			<skill id="269" lvl="1" sp="123000" minLvl="49" />
+			<!-- Song of Invocation -->
+			<skill id="270" lvl="1" sp="58000" minLvl="43" />
+			<!-- Song of Vitality -->
+			<skill id="304" lvl="1" sp="880000" minLvl="66" />
+			<!-- Song of Vengeance -->
+			<skill id="305" lvl="1" sp="3250000" minLvl="74" />
+			<!-- Song of Flame Guard -->
+			<skill id="306" lvl="1" sp="440000" minLvl="62" />
+			<!-- Song of Storm Guard -->
+			<skill id="308" lvl="1" sp="1160000" minLvl="70" />
+			<!-- Arrest -->
+			<skill id="402" lvl="1" sp="220000" minLvl="55" />
+			<skill id="402" lvl="2" sp="267000" minLvl="58" />
+			<skill id="402" lvl="3" sp="322000" minLvl="60" />
+			<skill id="402" lvl="4" sp="440000" minLvl="62" />
+			<skill id="402" lvl="5" sp="530000" minLvl="64" />
+			<skill id="402" lvl="6" sp="880000" minLvl="66" />
+			<skill id="402" lvl="7" sp="980000" minLvl="68" />
+			<skill id="402" lvl="8" sp="1160000" minLvl="70" />
+			<skill id="402" lvl="9" sp="1330000" minLvl="72" />
+			<skill id="402" lvl="10" sp="3250000" minLvl="74" />
+			<!-- Psycho Symphony -->
+			<skill id="407" lvl="1" sp="220000" minLvl="55" />
+			<skill id="407" lvl="2" sp="267000" minLvl="58" />
+			<skill id="407" lvl="3" sp="322000" minLvl="60" />
+			<skill id="407" lvl="4" sp="440000" minLvl="62" />
+			<skill id="407" lvl="5" sp="530000" minLvl="64" />
+			<skill id="407" lvl="6" sp="880000" minLvl="66" />
+			<skill id="407" lvl="7" sp="980000" minLvl="68" />
+			<skill id="407" lvl="8" sp="1160000" minLvl="70" />
+			<skill id="407" lvl="9" sp="1330000" minLvl="72" />
+			<skill id="407" lvl="10" sp="3250000" minLvl="74" />
+			<!-- Divine Inspiration -->
+			<skill id="1405" lvl="1" sp="0" minLvl="52" />
+			<skill id="1405" lvl="2" sp="0" minLvl="61" />
+		</skillTrees>
+	</class>
+	<class id="23" parentId="22">
+		<set name="className" val="Plains Walker" />
+		<set name="raceId" val="1" />
+		<set name="str" val="36" />
+		<set name="con" val="36" />
+		<set name="dex" val="35" />
+		<set name="int" val="23" />
+		<set name="wit" val="14" />
+		<set name="men" val="26" />
+		<set name="pAtk" val="4" />
+		<set name="pDef" val="80" />
+		<set name="mAtk" val="6" />
+		<set name="mDef" val="41" />
+		<set name="runSpd" val="125" />
+		<set name="spawnX" val="45978" />
+		<set name="spawnY" val="41196" />
+		<set name="spawnZ" val="-3440" />
+		<set name="radius" val="7" />
+		<set name="height" val="24" />
+		<set name="hp" val="1024.2" />
+		<set name="lvlHpAdd" val="46.8" />
+		<set name="lvlHpMod" val="0.37" />
+		<set name="cp" val="564.3" />
+		<set name="lvlCpAdd" val="25.10" />
+		<set name="lvlCpMod" val="0.22" />
+		<set name="mp" val="359.1" />
+		<set name="lvlMpAdd" val="25.9" />
+		<set name="lvlMpMod" val="0.22" />
+		<set name="baseLvl" val="40" />
+		<skillTrees>
+			<!-- Switch -->
+			<skill id="12" lvl="1" sp="35000" minLvl="43" />
+			<skill id="12" lvl="2" sp="40000" minLvl="46" />
+			<skill id="12" lvl="3" sp="75000" minLvl="49" />
+			<skill id="12" lvl="4" sp="115000" minLvl="52" />
+			<skill id="12" lvl="5" sp="147000" minLvl="55" />
+			<skill id="12" lvl="6" sp="160000" minLvl="58" />
+			<skill id="12" lvl="7" sp="223000" minLvl="60" />
+			<skill id="12" lvl="8" sp="330000" minLvl="62" />
+			<skill id="12" lvl="9" sp="440000" minLvl="64" />
+			<skill id="12" lvl="10" sp="500000" minLvl="66" />
+			<skill id="12" lvl="11" sp="600000" minLvl="68" />
+			<skill id="12" lvl="12" sp="780000" minLvl="70" />
+			<skill id="12" lvl="13" sp="1000000" minLvl="72" />
+			<skill id="12" lvl="14" sp="1860000" minLvl="74" />
+			<!-- Charm -->
+			<skill id="15" lvl="16" sp="9000" minLvl="40" />
+			<skill id="15" lvl="17" sp="9000" minLvl="40" />
+			<skill id="15" lvl="18" sp="9000" minLvl="40" />
+			<skill id="15" lvl="19" sp="12000" minLvl="43" />
+			<skill id="15" lvl="20" sp="12000" minLvl="43" />
+			<skill id="15" lvl="21" sp="12000" minLvl="43" />
+			<skill id="15" lvl="22" sp="13000" minLvl="46" />
+			<skill id="15" lvl="23" sp="13000" minLvl="46" />
+			<skill id="15" lvl="24" sp="13000" minLvl="46" />
+			<skill id="15" lvl="25" sp="25000" minLvl="49" />
+			<skill id="15" lvl="26" sp="25000" minLvl="49" />
+			<skill id="15" lvl="27" sp="25000" minLvl="49" />
+			<skill id="15" lvl="28" sp="38000" minLvl="52" />
+			<skill id="15" lvl="29" sp="38000" minLvl="52" />
+			<skill id="15" lvl="30" sp="38000" minLvl="52" />
+			<skill id="15" lvl="31" sp="49000" minLvl="55" />
+			<skill id="15" lvl="32" sp="49000" minLvl="55" />
+			<skill id="15" lvl="33" sp="49000" minLvl="55" />
+			<skill id="15" lvl="34" sp="53000" minLvl="58" />
+			<skill id="15" lvl="35" sp="53000" minLvl="58" />
+			<skill id="15" lvl="36" sp="53000" minLvl="58" />
+			<skill id="15" lvl="37" sp="112000" minLvl="60" />
+			<skill id="15" lvl="38" sp="112000" minLvl="60" />
+			<skill id="15" lvl="39" sp="170000" minLvl="62" />
+			<skill id="15" lvl="40" sp="170000" minLvl="62" />
+			<skill id="15" lvl="41" sp="220000" minLvl="64" />
+			<skill id="15" lvl="42" sp="220000" minLvl="64" />
+			<skill id="15" lvl="43" sp="250000" minLvl="66" />
+			<skill id="15" lvl="44" sp="250000" minLvl="66" />
+			<skill id="15" lvl="45" sp="300000" minLvl="68" />
+			<skill id="15" lvl="46" sp="300000" minLvl="68" />
+			<skill id="15" lvl="47" sp="390000" minLvl="70" />
+			<skill id="15" lvl="48" sp="390000" minLvl="70" />
+			<skill id="15" lvl="49" sp="500000" minLvl="72" />
+			<skill id="15" lvl="50" sp="500000" minLvl="72" />
+			<skill id="15" lvl="51" sp="930000" minLvl="74" />
+			<skill id="15" lvl="52" sp="930000" minLvl="74" />
+			<!-- Poison Recovery -->
+			<skill id="21" lvl="2" sp="28000" minLvl="40" />
+			<skill id="21" lvl="3" sp="223000" minLvl="60" />
+			<!-- Unlock -->
+			<skill id="27" lvl="6" sp="28000" minLvl="40" />
+			<skill id="27" lvl="7" sp="35000" minLvl="43" />
+			<skill id="27" lvl="8" sp="40000" minLvl="46" />
+			<skill id="27" lvl="9" sp="115000" minLvl="52" />
+			<skill id="27" lvl="10" sp="147000" minLvl="55" />
+			<skill id="27" lvl="11" sp="223000" minLvl="60" />
+			<skill id="27" lvl="12" sp="440000" minLvl="64" />
+			<skill id="27" lvl="13" sp="600000" minLvl="68" />
+			<skill id="27" lvl="14" sp="1000000" minLvl="72" />
+			<!-- Backstab -->
+			<skill id="30" lvl="1" sp="9000" minLvl="40" />
+			<skill id="30" lvl="2" sp="9000" minLvl="40" />
+			<skill id="30" lvl="3" sp="9000" minLvl="40" />
+			<skill id="30" lvl="4" sp="12000" minLvl="43" />
+			<skill id="30" lvl="5" sp="12000" minLvl="43" />
+			<skill id="30" lvl="6" sp="12000" minLvl="43" />
+			<skill id="30" lvl="7" sp="13000" minLvl="46" />
+			<skill id="30" lvl="8" sp="13000" minLvl="46" />
+			<skill id="30" lvl="9" sp="13000" minLvl="46" />
+			<skill id="30" lvl="10" sp="25000" minLvl="49" />
+			<skill id="30" lvl="11" sp="25000" minLvl="49" />
+			<skill id="30" lvl="12" sp="25000" minLvl="49" />
+			<skill id="30" lvl="13" sp="38000" minLvl="52" />
+			<skill id="30" lvl="14" sp="38000" minLvl="52" />
+			<skill id="30" lvl="15" sp="38000" minLvl="52" />
+			<skill id="30" lvl="16" sp="49000" minLvl="55" />
+			<skill id="30" lvl="17" sp="49000" minLvl="55" />
+			<skill id="30" lvl="18" sp="49000" minLvl="55" />
+			<skill id="30" lvl="19" sp="53000" minLvl="58" />
+			<skill id="30" lvl="20" sp="53000" minLvl="58" />
+			<skill id="30" lvl="21" sp="53000" minLvl="58" />
+			<skill id="30" lvl="22" sp="112000" minLvl="60" />
+			<skill id="30" lvl="23" sp="112000" minLvl="60" />
+			<skill id="30" lvl="24" sp="170000" minLvl="62" />
+			<skill id="30" lvl="25" sp="170000" minLvl="62" />
+			<skill id="30" lvl="26" sp="220000" minLvl="64" />
+			<skill id="30" lvl="27" sp="220000" minLvl="64" />
+			<skill id="30" lvl="28" sp="250000" minLvl="66" />
+			<skill id="30" lvl="29" sp="250000" minLvl="66" />
+			<skill id="30" lvl="30" sp="300000" minLvl="68" />
+			<skill id="30" lvl="31" sp="300000" minLvl="68" />
+			<skill id="30" lvl="32" sp="390000" minLvl="70" />
+			<skill id="30" lvl="33" sp="390000" minLvl="70" />
+			<skill id="30" lvl="34" sp="500000" minLvl="72" />
+			<skill id="30" lvl="35" sp="500000" minLvl="72" />
+			<skill id="30" lvl="36" sp="930000" minLvl="74" />
+			<skill id="30" lvl="37" sp="930000" minLvl="74" />
+			<!-- Lure -->
+			<skill id="51" lvl="1" sp="115000" minLvl="52" />
+			<!-- Elemental Heal -->
+			<skill id="58" lvl="19" sp="9000" minLvl="40" />
+			<skill id="58" lvl="20" sp="9000" minLvl="40" />
+			<skill id="58" lvl="21" sp="9000" minLvl="40" />
+			<skill id="58" lvl="22" sp="12000" minLvl="43" />
+			<skill id="58" lvl="23" sp="12000" minLvl="43" />
+			<skill id="58" lvl="24" sp="12000" minLvl="43" />
+			<skill id="58" lvl="25" sp="13000" minLvl="46" />
+			<skill id="58" lvl="26" sp="13000" minLvl="46" />
+			<skill id="58" lvl="27" sp="13000" minLvl="46" />
+			<skill id="58" lvl="28" sp="25000" minLvl="49" />
+			<skill id="58" lvl="29" sp="25000" minLvl="49" />
+			<skill id="58" lvl="30" sp="25000" minLvl="49" />
+			<skill id="58" lvl="31" sp="38000" minLvl="52" />
+			<skill id="58" lvl="32" sp="38000" minLvl="52" />
+			<skill id="58" lvl="33" sp="38000" minLvl="52" />
+			<skill id="58" lvl="34" sp="49000" minLvl="55" />
+			<skill id="58" lvl="35" sp="49000" minLvl="55" />
+			<skill id="58" lvl="36" sp="49000" minLvl="55" />
+			<skill id="58" lvl="37" sp="53000" minLvl="58" />
+			<skill id="58" lvl="38" sp="53000" minLvl="58" />
+			<skill id="58" lvl="39" sp="53000" minLvl="58" />
+			<skill id="58" lvl="40" sp="112000" minLvl="60" />
+			<skill id="58" lvl="41" sp="112000" minLvl="60" />
+			<skill id="58" lvl="42" sp="170000" minLvl="62" />
+			<skill id="58" lvl="43" sp="170000" minLvl="62" />
+			<skill id="58" lvl="44" sp="220000" minLvl="64" />
+			<skill id="58" lvl="45" sp="220000" minLvl="64" />
+			<skill id="58" lvl="46" sp="250000" minLvl="66" />
+			<skill id="58" lvl="47" sp="250000" minLvl="66" />
+			<skill id="58" lvl="48" sp="300000" minLvl="68" />
+			<skill id="58" lvl="49" sp="300000" minLvl="68" />
+			<skill id="58" lvl="50" sp="390000" minLvl="70" />
+			<skill id="58" lvl="51" sp="390000" minLvl="70" />
+			<skill id="58" lvl="52" sp="500000" minLvl="72" />
+			<skill id="58" lvl="53" sp="500000" minLvl="72" />
+			<skill id="58" lvl="54" sp="930000" minLvl="74" />
+			<skill id="58" lvl="55" sp="930000" minLvl="74" />
+			<!-- Fake Death -->
+			<skill id="60" lvl="1" sp="28000" minLvl="40" />
+			<!-- Cure Bleeding -->
+			<skill id="61" lvl="2" sp="40000" minLvl="46" />
+			<skill id="61" lvl="3" sp="330000" minLvl="62" />
+			<!-- Bleed -->
+			<skill id="96" lvl="3" sp="75000" minLvl="49" />
+			<skill id="96" lvl="4" sp="160000" minLvl="58" />
+			<skill id="96" lvl="5" sp="500000" minLvl="66" />
+			<skill id="96" lvl="6" sp="780000" minLvl="70" />
+			<!-- Entangle -->
+			<skill id="102" lvl="2" sp="28000" minLvl="40" />
+			<skill id="102" lvl="3" sp="35000" minLvl="43" />
+			<skill id="102" lvl="4" sp="40000" minLvl="46" />
+			<skill id="102" lvl="5" sp="75000" minLvl="49" />
+			<skill id="102" lvl="6" sp="115000" minLvl="52" />
+			<skill id="102" lvl="7" sp="147000" minLvl="55" />
+			<skill id="102" lvl="8" sp="160000" minLvl="58" />
+			<skill id="102" lvl="9" sp="223000" minLvl="60" />
+			<skill id="102" lvl="10" sp="330000" minLvl="62" />
+			<skill id="102" lvl="11" sp="440000" minLvl="64" />
+			<skill id="102" lvl="12" sp="500000" minLvl="66" />
+			<skill id="102" lvl="13" sp="600000" minLvl="68" />
+			<skill id="102" lvl="14" sp="780000" minLvl="70" />
+			<skill id="102" lvl="15" sp="1000000" minLvl="72" />
+			<skill id="102" lvl="16" sp="1860000" minLvl="74" />
+			<!-- Ultimate Evasion -->
+			<skill id="111" lvl="2" sp="147000" minLvl="55" />
+			<!-- Spirit Barrier -->
+			<skill id="123" lvl="1" sp="28000" minLvl="40" />
+			<skill id="123" lvl="2" sp="75000" minLvl="49" />
+			<skill id="123" lvl="3" sp="160000" minLvl="58" />
+			<!-- Critical Chance -->
+			<skill id="137" lvl="2" sp="28000" minLvl="40" />
+			<skill id="137" lvl="3" sp="75000" minLvl="49" />
+			<!-- Quick Step -->
+			<skill id="169" lvl="2" sp="35000" minLvl="43" />
+			<!-- Esprit -->
+			<skill id="171" lvl="2" sp="35000" minLvl="43" />
+			<skill id="171" lvl="3" sp="40000" minLvl="46" />
+			<skill id="171" lvl="4" sp="75000" minLvl="49" />
+			<skill id="171" lvl="5" sp="115000" minLvl="52" />
+			<skill id="171" lvl="6" sp="330000" minLvl="62" />
+			<skill id="171" lvl="7" sp="600000" minLvl="68" />
+			<skill id="171" lvl="8" sp="1860000" minLvl="74" />
+			<!-- Acrobatics -->
+			<skill id="173" lvl="2" sp="147000" minLvl="55" />
+			<!-- Breath Boost -->
+			<skill id="195" lvl="2" sp="147000" minLvl="55" />
+			<!-- Boost Evasion -->
+			<skill id="198" lvl="2" sp="40000" minLvl="46" />
+			<skill id="198" lvl="3" sp="160000" minLvl="58" />
+			<!-- Dagger Mastery -->
+			<skill id="209" lvl="9" sp="9000" minLvl="40" />
+			<skill id="209" lvl="10" sp="9000" minLvl="40" />
+			<skill id="209" lvl="11" sp="9000" minLvl="40" />
+			<skill id="209" lvl="12" sp="12000" minLvl="43" />
+			<skill id="209" lvl="13" sp="12000" minLvl="43" />
+			<skill id="209" lvl="14" sp="12000" minLvl="43" />
+			<skill id="209" lvl="15" sp="13000" minLvl="46" />
+			<skill id="209" lvl="16" sp="13000" minLvl="46" />
+			<skill id="209" lvl="17" sp="13000" minLvl="46" />
+			<skill id="209" lvl="18" sp="25000" minLvl="49" />
+			<skill id="209" lvl="19" sp="25000" minLvl="49" />
+			<skill id="209" lvl="20" sp="25000" minLvl="49" />
+			<skill id="209" lvl="21" sp="38000" minLvl="52" />
+			<skill id="209" lvl="22" sp="38000" minLvl="52" />
+			<skill id="209" lvl="23" sp="38000" minLvl="52" />
+			<skill id="209" lvl="24" sp="49000" minLvl="55" />
+			<skill id="209" lvl="25" sp="49000" minLvl="55" />
+			<skill id="209" lvl="26" sp="49000" minLvl="55" />
+			<skill id="209" lvl="27" sp="53000" minLvl="58" />
+			<skill id="209" lvl="28" sp="53000" minLvl="58" />
+			<skill id="209" lvl="29" sp="53000" minLvl="58" />
+			<skill id="209" lvl="30" sp="112000" minLvl="60" />
+			<skill id="209" lvl="31" sp="112000" minLvl="60" />
+			<skill id="209" lvl="32" sp="170000" minLvl="62" />
+			<skill id="209" lvl="33" sp="170000" minLvl="62" />
+			<skill id="209" lvl="34" sp="220000" minLvl="64" />
+			<skill id="209" lvl="35" sp="220000" minLvl="64" />
+			<skill id="209" lvl="36" sp="250000" minLvl="66" />
+			<skill id="209" lvl="37" sp="250000" minLvl="66" />
+			<skill id="209" lvl="38" sp="300000" minLvl="68" />
+			<skill id="209" lvl="39" sp="300000" minLvl="68" />
+			<skill id="209" lvl="40" sp="390000" minLvl="70" />
+			<skill id="209" lvl="41" sp="390000" minLvl="70" />
+			<skill id="209" lvl="42" sp="500000" minLvl="72" />
+			<skill id="209" lvl="43" sp="500000" minLvl="72" />
+			<skill id="209" lvl="44" sp="930000" minLvl="74" />
+			<skill id="209" lvl="45" sp="930000" minLvl="74" />
+			<!-- Silent Move -->
+			<skill id="221" lvl="1" sp="28000" minLvl="40" />
+			<!-- Acrobatic Move -->
+			<skill id="225" lvl="2" sp="35000" minLvl="43" />
+			<skill id="225" lvl="3" sp="147000" minLvl="55" />
+			<!-- Sprint -->
+			<skill id="230" lvl="2" sp="115000" minLvl="52" />
+			<!-- Light Armor Mastery -->
+			<skill id="233" lvl="11" sp="9000" minLvl="40" />
+			<skill id="233" lvl="12" sp="9000" minLvl="40" />
+			<skill id="233" lvl="13" sp="9000" minLvl="40" />
+			<skill id="233" lvl="14" sp="12000" minLvl="43" />
+			<skill id="233" lvl="15" sp="12000" minLvl="43" />
+			<skill id="233" lvl="16" sp="12000" minLvl="43" />
+			<skill id="233" lvl="17" sp="13000" minLvl="46" />
+			<skill id="233" lvl="18" sp="13000" minLvl="46" />
+			<skill id="233" lvl="19" sp="13000" minLvl="46" />
+			<skill id="233" lvl="20" sp="25000" minLvl="49" />
+			<skill id="233" lvl="21" sp="25000" minLvl="49" />
+			<skill id="233" lvl="22" sp="25000" minLvl="49" />
+			<skill id="233" lvl="23" sp="38000" minLvl="52" />
+			<skill id="233" lvl="24" sp="38000" minLvl="52" />
+			<skill id="233" lvl="25" sp="38000" minLvl="52" />
+			<skill id="233" lvl="26" sp="49000" minLvl="55" />
+			<skill id="233" lvl="27" sp="49000" minLvl="55" />
+			<skill id="233" lvl="28" sp="49000" minLvl="55" />
+			<skill id="233" lvl="29" sp="53000" minLvl="58" />
+			<skill id="233" lvl="30" sp="53000" minLvl="58" />
+			<skill id="233" lvl="31" sp="53000" minLvl="58" />
+			<skill id="233" lvl="32" sp="112000" minLvl="60" />
+			<skill id="233" lvl="33" sp="112000" minLvl="60" />
+			<skill id="233" lvl="34" sp="170000" minLvl="62" />
+			<skill id="233" lvl="35" sp="170000" minLvl="62" />
+			<skill id="233" lvl="36" sp="220000" minLvl="64" />
+			<skill id="233" lvl="37" sp="220000" minLvl="64" />
+			<skill id="233" lvl="38" sp="250000" minLvl="66" />
+			<skill id="233" lvl="39" sp="250000" minLvl="66" />
+			<skill id="233" lvl="40" sp="300000" minLvl="68" />
+			<skill id="233" lvl="41" sp="300000" minLvl="68" />
+			<skill id="233" lvl="42" sp="390000" minLvl="70" />
+			<skill id="233" lvl="43" sp="390000" minLvl="70" />
+			<skill id="233" lvl="44" sp="500000" minLvl="72" />
+			<skill id="233" lvl="45" sp="500000" minLvl="72" />
+			<skill id="233" lvl="46" sp="930000" minLvl="74" />
+			<skill id="233" lvl="47" sp="930000" minLvl="74" />
+			<!-- Deadly Blow -->
+			<skill id="263" lvl="1" sp="9000" minLvl="40" />
+			<skill id="263" lvl="2" sp="9000" minLvl="40" />
+			<skill id="263" lvl="3" sp="9000" minLvl="40" />
+			<skill id="263" lvl="4" sp="12000" minLvl="43" />
+			<skill id="263" lvl="5" sp="12000" minLvl="43" />
+			<skill id="263" lvl="6" sp="12000" minLvl="43" />
+			<skill id="263" lvl="7" sp="13000" minLvl="46" />
+			<skill id="263" lvl="8" sp="13000" minLvl="46" />
+			<skill id="263" lvl="9" sp="13000" minLvl="46" />
+			<skill id="263" lvl="10" sp="25000" minLvl="49" />
+			<skill id="263" lvl="11" sp="25000" minLvl="49" />
+			<skill id="263" lvl="12" sp="25000" minLvl="49" />
+			<skill id="263" lvl="13" sp="38000" minLvl="52" />
+			<skill id="263" lvl="14" sp="38000" minLvl="52" />
+			<skill id="263" lvl="15" sp="38000" minLvl="52" />
+			<skill id="263" lvl="16" sp="49000" minLvl="55" />
+			<skill id="263" lvl="17" sp="49000" minLvl="55" />
+			<skill id="263" lvl="18" sp="49000" minLvl="55" />
+			<skill id="263" lvl="19" sp="53000" minLvl="58" />
+			<skill id="263" lvl="20" sp="53000" minLvl="58" />
+			<skill id="263" lvl="21" sp="53000" minLvl="58" />
+			<skill id="263" lvl="22" sp="112000" minLvl="60" />
+			<skill id="263" lvl="23" sp="112000" minLvl="60" />
+			<skill id="263" lvl="24" sp="170000" minLvl="62" />
+			<skill id="263" lvl="25" sp="170000" minLvl="62" />
+			<skill id="263" lvl="26" sp="220000" minLvl="64" />
+			<skill id="263" lvl="27" sp="220000" minLvl="64" />
+			<skill id="263" lvl="28" sp="250000" minLvl="66" />
+			<skill id="263" lvl="29" sp="250000" minLvl="66" />
+			<skill id="263" lvl="30" sp="300000" minLvl="68" />
+			<skill id="263" lvl="31" sp="300000" minLvl="68" />
+			<skill id="263" lvl="32" sp="390000" minLvl="70" />
+			<skill id="263" lvl="33" sp="390000" minLvl="70" />
+			<skill id="263" lvl="34" sp="500000" minLvl="72" />
+			<skill id="263" lvl="35" sp="500000" minLvl="72" />
+			<skill id="263" lvl="36" sp="930000" minLvl="74" />
+			<skill id="263" lvl="37" sp="930000" minLvl="74" />
+			<!-- Chameleon Rest -->
+			<skill id="296" lvl="1" sp="40000" minLvl="46" />
+			<!-- Vicious Stance -->
+			<skill id="312" lvl="6" sp="28000" minLvl="40" />
+			<skill id="312" lvl="7" sp="35000" minLvl="43" />
+			<skill id="312" lvl="8" sp="40000" minLvl="46" />
+			<skill id="312" lvl="9" sp="75000" minLvl="49" />
+			<skill id="312" lvl="10" sp="115000" minLvl="52" />
+			<skill id="312" lvl="11" sp="147000" minLvl="55" />
+			<skill id="312" lvl="12" sp="160000" minLvl="58" />
+			<skill id="312" lvl="13" sp="223000" minLvl="60" />
+			<skill id="312" lvl="14" sp="330000" minLvl="62" />
+			<skill id="312" lvl="15" sp="440000" minLvl="64" />
+			<skill id="312" lvl="16" sp="500000" minLvl="66" />
+			<skill id="312" lvl="17" sp="600000" minLvl="68" />
+			<skill id="312" lvl="18" sp="780000" minLvl="70" />
+			<skill id="312" lvl="19" sp="1000000" minLvl="72" />
+			<skill id="312" lvl="20" sp="1860000" minLvl="74" />
+			<!-- Blinding Blow -->
+			<skill id="321" lvl="1" sp="250000" minLvl="66" />
+			<skill id="321" lvl="2" sp="250000" minLvl="66" />
+			<skill id="321" lvl="3" sp="300000" minLvl="68" />
+			<skill id="321" lvl="4" sp="300000" minLvl="68" />
+			<skill id="321" lvl="5" sp="390000" minLvl="70" />
+			<skill id="321" lvl="6" sp="390000" minLvl="70" />
+			<skill id="321" lvl="7" sp="500000" minLvl="72" />
+			<skill id="321" lvl="8" sp="500000" minLvl="72" />
+			<skill id="321" lvl="9" sp="930000" minLvl="74" />
+			<skill id="321" lvl="10" sp="930000" minLvl="74" />
+			<!-- Mortal Strike -->
+			<skill id="410" lvl="1" sp="160000" minLvl="58" />
+			<skill id="410" lvl="2" sp="500000" minLvl="66" />
+			<skill id="410" lvl="3" sp="1860000" minLvl="74" />
+			<!-- Sand Bomb -->
+			<skill id="412" lvl="1" sp="147000" minLvl="55" />
+			<skill id="412" lvl="2" sp="160000" minLvl="58" />
+			<skill id="412" lvl="3" sp="223000" minLvl="60" />
+			<skill id="412" lvl="4" sp="330000" minLvl="62" />
+			<skill id="412" lvl="5" sp="440000" minLvl="64" />
+			<skill id="412" lvl="6" sp="500000" minLvl="66" />
+			<skill id="412" lvl="7" sp="600000" minLvl="68" />
+			<skill id="412" lvl="8" sp="780000" minLvl="70" />
+			<skill id="412" lvl="9" sp="1000000" minLvl="72" />
+			<skill id="412" lvl="10" sp="1860000" minLvl="74" />
+			<!-- Summon Treasure Key -->
+			<skill id="419" lvl="1" sp="40000" minLvl="46" />
+			<skill id="419" lvl="2" sp="160000" minLvl="58" />
+			<skill id="419" lvl="3" sp="500000" minLvl="66" />
+			<skill id="419" lvl="4" sp="1860000" minLvl="74" />
+			<!-- Escape Shackle -->
+			<skill id="453" lvl="1" sp="223000" minLvl="60" />
+			<!-- Divine Inspiration -->
+			<skill id="1405" lvl="1" sp="0" minLvl="52" />
+			<skill id="1405" lvl="2" sp="0" minLvl="61" />
+		</skillTrees>
+	</class>
+	<class id="24" parentId="22">
+		<set name="className" val="Silver Ranger" />
+		<set name="raceId" val="1" />
+		<set name="str" val="36" />
+		<set name="con" val="36" />
+		<set name="dex" val="35" />
+		<set name="int" val="23" />
+		<set name="wit" val="14" />
+		<set name="men" val="26" />
+		<set name="pAtk" val="4" />
+		<set name="pDef" val="80" />
+		<set name="mAtk" val="6" />
+		<set name="mDef" val="41" />
+		<set name="runSpd" val="125" />
+		<set name="spawnX" val="45978" />
+		<set name="spawnY" val="41196" />
+		<set name="spawnZ" val="-3440" />
+		<set name="radius" val="7" />
+		<set name="height" val="24" />
+		<set name="hp" val="1024.2" />
+		<set name="lvlHpAdd" val="49.4" />
+		<set name="lvlHpMod" val="0.37" />
+		<set name="cp" val="512.1" />
+		<set name="lvlCpAdd" val="24.7" />
+		<set name="lvlCpMod" val="0.22" />
+		<set name="mp" val="359.1" />
+		<set name="lvlMpAdd" val="24.7" />
+		<set name="lvlMpMod" val="0.22" />
+		<set name="baseLvl" val="40" />
+		<skillTrees>
+			<!-- Charm -->
+			<skill id="15" lvl="16" sp="12000" minLvl="40" />
+			<skill id="15" lvl="17" sp="12000" minLvl="40" />
+			<skill id="15" lvl="18" sp="12000" minLvl="40" />
+			<skill id="15" lvl="19" sp="14000" minLvl="43" />
+			<skill id="15" lvl="20" sp="14000" minLvl="43" />
+			<skill id="15" lvl="21" sp="14000" minLvl="43" />
+			<skill id="15" lvl="22" sp="17000" minLvl="46" />
+			<skill id="15" lvl="23" sp="17000" minLvl="46" />
+			<skill id="15" lvl="24" sp="17000" minLvl="46" />
+			<skill id="15" lvl="25" sp="30000" minLvl="49" />
+			<skill id="15" lvl="26" sp="30000" minLvl="49" />
+			<skill id="15" lvl="27" sp="30000" minLvl="49" />
+			<skill id="15" lvl="28" sp="45000" minLvl="52" />
+			<skill id="15" lvl="29" sp="45000" minLvl="52" />
+			<skill id="15" lvl="30" sp="45000" minLvl="52" />
+			<skill id="15" lvl="31" sp="61000" minLvl="55" />
+			<skill id="15" lvl="32" sp="61000" minLvl="55" />
+			<skill id="15" lvl="33" sp="61000" minLvl="55" />
+			<skill id="15" lvl="34" sp="67000" minLvl="58" />
+			<skill id="15" lvl="35" sp="67000" minLvl="58" />
+			<skill id="15" lvl="36" sp="67000" minLvl="58" />
+			<skill id="15" lvl="37" sp="132000" minLvl="60" />
+			<skill id="15" lvl="38" sp="132000" minLvl="60" />
+			<skill id="15" lvl="39" sp="170000" minLvl="62" />
+			<skill id="15" lvl="40" sp="170000" minLvl="62" />
+			<skill id="15" lvl="41" sp="220000" minLvl="64" />
+			<skill id="15" lvl="42" sp="220000" minLvl="64" />
+			<skill id="15" lvl="43" sp="270000" minLvl="66" />
+			<skill id="15" lvl="44" sp="270000" minLvl="66" />
+			<skill id="15" lvl="45" sp="350000" minLvl="68" />
+			<skill id="15" lvl="46" sp="350000" minLvl="68" />
+			<skill id="15" lvl="47" sp="420000" minLvl="70" />
+			<skill id="15" lvl="48" sp="420000" minLvl="70" />
+			<skill id="15" lvl="49" sp="550000" minLvl="72" />
+			<skill id="15" lvl="50" sp="550000" minLvl="72" />
+			<skill id="15" lvl="51" sp="1000000" minLvl="74" />
+			<skill id="15" lvl="52" sp="1000000" minLvl="74" />
+			<!-- Double Shot -->
+			<skill id="19" lvl="1" sp="12000" minLvl="40" />
+			<skill id="19" lvl="2" sp="12000" minLvl="40" />
+			<skill id="19" lvl="3" sp="12000" minLvl="40" />
+			<skill id="19" lvl="4" sp="14000" minLvl="43" />
+			<skill id="19" lvl="5" sp="14000" minLvl="43" />
+			<skill id="19" lvl="6" sp="14000" minLvl="43" />
+			<skill id="19" lvl="7" sp="17000" minLvl="46" />
+			<skill id="19" lvl="8" sp="17000" minLvl="46" />
+			<skill id="19" lvl="9" sp="17000" minLvl="46" />
+			<skill id="19" lvl="10" sp="30000" minLvl="49" />
+			<skill id="19" lvl="11" sp="30000" minLvl="49" />
+			<skill id="19" lvl="12" sp="30000" minLvl="49" />
+			<skill id="19" lvl="13" sp="45000" minLvl="52" />
+			<skill id="19" lvl="14" sp="45000" minLvl="52" />
+			<skill id="19" lvl="15" sp="45000" minLvl="52" />
+			<skill id="19" lvl="16" sp="61000" minLvl="55" />
+			<skill id="19" lvl="17" sp="61000" minLvl="55" />
+			<skill id="19" lvl="18" sp="61000" minLvl="55" />
+			<skill id="19" lvl="19" sp="67000" minLvl="58" />
+			<skill id="19" lvl="20" sp="67000" minLvl="58" />
+			<skill id="19" lvl="21" sp="67000" minLvl="58" />
+			<skill id="19" lvl="22" sp="132000" minLvl="60" />
+			<skill id="19" lvl="23" sp="132000" minLvl="60" />
+			<skill id="19" lvl="24" sp="170000" minLvl="62" />
+			<skill id="19" lvl="25" sp="170000" minLvl="62" />
+			<skill id="19" lvl="26" sp="220000" minLvl="64" />
+			<skill id="19" lvl="27" sp="220000" minLvl="64" />
+			<skill id="19" lvl="28" sp="270000" minLvl="66" />
+			<skill id="19" lvl="29" sp="270000" minLvl="66" />
+			<skill id="19" lvl="30" sp="350000" minLvl="68" />
+			<skill id="19" lvl="31" sp="350000" minLvl="68" />
+			<skill id="19" lvl="32" sp="420000" minLvl="70" />
+			<skill id="19" lvl="33" sp="420000" minLvl="70" />
+			<skill id="19" lvl="34" sp="550000" minLvl="72" />
+			<skill id="19" lvl="35" sp="550000" minLvl="72" />
+			<skill id="19" lvl="36" sp="1000000" minLvl="74" />
+			<skill id="19" lvl="37" sp="1000000" minLvl="74" />
+			<!-- Poison Recovery -->
+			<skill id="21" lvl="2" sp="35000" minLvl="40" />
+			<skill id="21" lvl="3" sp="264000" minLvl="60" />
+			<!-- Burst Shot -->
+			<skill id="24" lvl="1" sp="17000" minLvl="46" />
+			<skill id="24" lvl="2" sp="17000" minLvl="46" />
+			<skill id="24" lvl="3" sp="17000" minLvl="46" />
+			<skill id="24" lvl="4" sp="30000" minLvl="49" />
+			<skill id="24" lvl="5" sp="30000" minLvl="49" />
+			<skill id="24" lvl="6" sp="30000" minLvl="49" />
+			<skill id="24" lvl="7" sp="45000" minLvl="52" />
+			<skill id="24" lvl="8" sp="45000" minLvl="52" />
+			<skill id="24" lvl="9" sp="45000" minLvl="52" />
+			<skill id="24" lvl="10" sp="61000" minLvl="55" />
+			<skill id="24" lvl="11" sp="61000" minLvl="55" />
+			<skill id="24" lvl="12" sp="61000" minLvl="55" />
+			<skill id="24" lvl="13" sp="67000" minLvl="58" />
+			<skill id="24" lvl="14" sp="67000" minLvl="58" />
+			<skill id="24" lvl="15" sp="67000" minLvl="58" />
+			<skill id="24" lvl="16" sp="132000" minLvl="60" />
+			<skill id="24" lvl="17" sp="132000" minLvl="60" />
+			<skill id="24" lvl="18" sp="170000" minLvl="62" />
+			<skill id="24" lvl="19" sp="170000" minLvl="62" />
+			<skill id="24" lvl="20" sp="220000" minLvl="64" />
+			<skill id="24" lvl="21" sp="220000" minLvl="64" />
+			<skill id="24" lvl="22" sp="270000" minLvl="66" />
+			<skill id="24" lvl="23" sp="270000" minLvl="66" />
+			<skill id="24" lvl="24" sp="350000" minLvl="68" />
+			<skill id="24" lvl="25" sp="350000" minLvl="68" />
+			<skill id="24" lvl="26" sp="420000" minLvl="70" />
+			<skill id="24" lvl="27" sp="420000" minLvl="70" />
+			<skill id="24" lvl="28" sp="550000" minLvl="72" />
+			<skill id="24" lvl="29" sp="550000" minLvl="72" />
+			<skill id="24" lvl="30" sp="1000000" minLvl="74" />
+			<skill id="24" lvl="31" sp="1000000" minLvl="74" />
+			<!-- Elemental Heal -->
+			<skill id="58" lvl="19" sp="12000" minLvl="40" />
+			<skill id="58" lvl="20" sp="12000" minLvl="40" />
+			<skill id="58" lvl="21" sp="12000" minLvl="40" />
+			<skill id="58" lvl="22" sp="14000" minLvl="43" />
+			<skill id="58" lvl="23" sp="14000" minLvl="43" />
+			<skill id="58" lvl="24" sp="14000" minLvl="43" />
+			<skill id="58" lvl="25" sp="17000" minLvl="46" />
+			<skill id="58" lvl="26" sp="17000" minLvl="46" />
+			<skill id="58" lvl="27" sp="17000" minLvl="46" />
+			<skill id="58" lvl="28" sp="30000" minLvl="49" />
+			<skill id="58" lvl="29" sp="30000" minLvl="49" />
+			<skill id="58" lvl="30" sp="30000" minLvl="49" />
+			<skill id="58" lvl="31" sp="45000" minLvl="52" />
+			<skill id="58" lvl="32" sp="45000" minLvl="52" />
+			<skill id="58" lvl="33" sp="45000" minLvl="52" />
+			<skill id="58" lvl="34" sp="61000" minLvl="55" />
+			<skill id="58" lvl="35" sp="61000" minLvl="55" />
+			<skill id="58" lvl="36" sp="61000" minLvl="55" />
+			<skill id="58" lvl="37" sp="67000" minLvl="58" />
+			<skill id="58" lvl="38" sp="67000" minLvl="58" />
+			<skill id="58" lvl="39" sp="67000" minLvl="58" />
+			<skill id="58" lvl="40" sp="132000" minLvl="60" />
+			<skill id="58" lvl="41" sp="132000" minLvl="60" />
+			<skill id="58" lvl="42" sp="170000" minLvl="62" />
+			<skill id="58" lvl="43" sp="170000" minLvl="62" />
+			<skill id="58" lvl="44" sp="220000" minLvl="64" />
+			<skill id="58" lvl="45" sp="220000" minLvl="64" />
+			<skill id="58" lvl="46" sp="270000" minLvl="66" />
+			<skill id="58" lvl="47" sp="270000" minLvl="66" />
+			<skill id="58" lvl="48" sp="350000" minLvl="68" />
+			<skill id="58" lvl="49" sp="350000" minLvl="68" />
+			<skill id="58" lvl="50" sp="420000" minLvl="70" />
+			<skill id="58" lvl="51" sp="420000" minLvl="70" />
+			<skill id="58" lvl="52" sp="550000" minLvl="72" />
+			<skill id="58" lvl="53" sp="550000" minLvl="72" />
+			<skill id="58" lvl="54" sp="1000000" minLvl="74" />
+			<skill id="58" lvl="55" sp="1000000" minLvl="74" />
+			<!-- Cure Bleeding -->
+			<skill id="61" lvl="2" sp="50000" minLvl="46" />
+			<skill id="61" lvl="3" sp="330000" minLvl="62" />
+			<!-- Rapid Shot -->
+			<skill id="99" lvl="2" sp="182000" minLvl="55" />
+			<!-- Stunning Shot -->
+			<skill id="101" lvl="4" sp="12000" minLvl="40" />
+			<skill id="101" lvl="5" sp="12000" minLvl="40" />
+			<skill id="101" lvl="6" sp="12000" minLvl="40" />
+			<skill id="101" lvl="7" sp="14000" minLvl="43" />
+			<skill id="101" lvl="8" sp="14000" minLvl="43" />
+			<skill id="101" lvl="9" sp="14000" minLvl="43" />
+			<skill id="101" lvl="10" sp="17000" minLvl="46" />
+			<skill id="101" lvl="11" sp="17000" minLvl="46" />
+			<skill id="101" lvl="12" sp="17000" minLvl="46" />
+			<skill id="101" lvl="13" sp="30000" minLvl="49" />
+			<skill id="101" lvl="14" sp="30000" minLvl="49" />
+			<skill id="101" lvl="15" sp="30000" minLvl="49" />
+			<skill id="101" lvl="16" sp="45000" minLvl="52" />
+			<skill id="101" lvl="17" sp="45000" minLvl="52" />
+			<skill id="101" lvl="18" sp="45000" minLvl="52" />
+			<skill id="101" lvl="19" sp="61000" minLvl="55" />
+			<skill id="101" lvl="20" sp="61000" minLvl="55" />
+			<skill id="101" lvl="21" sp="61000" minLvl="55" />
+			<skill id="101" lvl="22" sp="67000" minLvl="58" />
+			<skill id="101" lvl="23" sp="67000" minLvl="58" />
+			<skill id="101" lvl="24" sp="67000" minLvl="58" />
+			<skill id="101" lvl="25" sp="132000" minLvl="60" />
+			<skill id="101" lvl="26" sp="132000" minLvl="60" />
+			<skill id="101" lvl="27" sp="170000" minLvl="62" />
+			<skill id="101" lvl="28" sp="170000" minLvl="62" />
+			<skill id="101" lvl="29" sp="220000" minLvl="64" />
+			<skill id="101" lvl="30" sp="220000" minLvl="64" />
+			<skill id="101" lvl="31" sp="270000" minLvl="66" />
+			<skill id="101" lvl="32" sp="270000" minLvl="66" />
+			<skill id="101" lvl="33" sp="350000" minLvl="68" />
+			<skill id="101" lvl="34" sp="350000" minLvl="68" />
+			<skill id="101" lvl="35" sp="420000" minLvl="70" />
+			<skill id="101" lvl="36" sp="420000" minLvl="70" />
+			<skill id="101" lvl="37" sp="550000" minLvl="72" />
+			<skill id="101" lvl="38" sp="550000" minLvl="72" />
+			<skill id="101" lvl="39" sp="1000000" minLvl="74" />
+			<skill id="101" lvl="40" sp="1000000" minLvl="74" />
+			<!-- Entangle -->
+			<skill id="102" lvl="2" sp="35000" minLvl="40" />
+			<skill id="102" lvl="3" sp="42000" minLvl="43" />
+			<skill id="102" lvl="4" sp="50000" minLvl="46" />
+			<skill id="102" lvl="5" sp="89000" minLvl="49" />
+			<skill id="102" lvl="6" sp="136000" minLvl="52" />
+			<skill id="102" lvl="7" sp="182000" minLvl="55" />
+			<skill id="102" lvl="8" sp="200000" minLvl="58" />
+			<skill id="102" lvl="9" sp="264000" minLvl="60" />
+			<skill id="102" lvl="10" sp="330000" minLvl="62" />
+			<skill id="102" lvl="11" sp="440000" minLvl="64" />
+			<skill id="102" lvl="12" sp="540000" minLvl="66" />
+			<skill id="102" lvl="13" sp="710000" minLvl="68" />
+			<skill id="102" lvl="14" sp="850000" minLvl="70" />
+			<skill id="102" lvl="15" sp="1090000" minLvl="72" />
+			<skill id="102" lvl="16" sp="2000000" minLvl="74" />
+			<!-- Long Shot -->
+			<skill id="113" lvl="2" sp="35000" minLvl="40" />
+			<!-- Spirit Barrier -->
+			<skill id="123" lvl="1" sp="35000" minLvl="40" />
+			<skill id="123" lvl="2" sp="89000" minLvl="49" />
+			<skill id="123" lvl="3" sp="200000" minLvl="58" />
+			<!-- Quick Step -->
+			<skill id="169" lvl="2" sp="42000" minLvl="43" />
+			<!-- Esprit -->
+			<skill id="171" lvl="2" sp="42000" minLvl="43" />
+			<skill id="171" lvl="3" sp="50000" minLvl="46" />
+			<skill id="171" lvl="4" sp="89000" minLvl="49" />
+			<skill id="171" lvl="5" sp="136000" minLvl="52" />
+			<skill id="171" lvl="6" sp="330000" minLvl="62" />
+			<skill id="171" lvl="7" sp="710000" minLvl="68" />
+			<skill id="171" lvl="8" sp="2000000" minLvl="74" />
+			<!-- Bow Mastery -->
+			<skill id="208" lvl="16" sp="12000" minLvl="40" />
+			<skill id="208" lvl="17" sp="12000" minLvl="40" />
+			<skill id="208" lvl="18" sp="12000" minLvl="40" />
+			<skill id="208" lvl="19" sp="14000" minLvl="43" />
+			<skill id="208" lvl="20" sp="14000" minLvl="43" />
+			<skill id="208" lvl="21" sp="14000" minLvl="43" />
+			<skill id="208" lvl="22" sp="17000" minLvl="46" />
+			<skill id="208" lvl="23" sp="17000" minLvl="46" />
+			<skill id="208" lvl="24" sp="17000" minLvl="46" />
+			<skill id="208" lvl="25" sp="30000" minLvl="49" />
+			<skill id="208" lvl="26" sp="30000" minLvl="49" />
+			<skill id="208" lvl="27" sp="30000" minLvl="49" />
+			<skill id="208" lvl="28" sp="45000" minLvl="52" />
+			<skill id="208" lvl="29" sp="45000" minLvl="52" />
+			<skill id="208" lvl="30" sp="45000" minLvl="52" />
+			<skill id="208" lvl="31" sp="61000" minLvl="55" />
+			<skill id="208" lvl="32" sp="61000" minLvl="55" />
+			<skill id="208" lvl="33" sp="61000" minLvl="55" />
+			<skill id="208" lvl="34" sp="67000" minLvl="58" />
+			<skill id="208" lvl="35" sp="67000" minLvl="58" />
+			<skill id="208" lvl="36" sp="67000" minLvl="58" />
+			<skill id="208" lvl="37" sp="132000" minLvl="60" />
+			<skill id="208" lvl="38" sp="132000" minLvl="60" />
+			<skill id="208" lvl="39" sp="170000" minLvl="62" />
+			<skill id="208" lvl="40" sp="170000" minLvl="62" />
+			<skill id="208" lvl="41" sp="220000" minLvl="64" />
+			<skill id="208" lvl="42" sp="220000" minLvl="64" />
+			<skill id="208" lvl="43" sp="270000" minLvl="66" />
+			<skill id="208" lvl="44" sp="270000" minLvl="66" />
+			<skill id="208" lvl="45" sp="350000" minLvl="68" />
+			<skill id="208" lvl="46" sp="350000" minLvl="68" />
+			<skill id="208" lvl="47" sp="420000" minLvl="70" />
+			<skill id="208" lvl="48" sp="420000" minLvl="70" />
+			<skill id="208" lvl="49" sp="550000" minLvl="72" />
+			<skill id="208" lvl="50" sp="550000" minLvl="72" />
+			<skill id="208" lvl="51" sp="1000000" minLvl="74" />
+			<skill id="208" lvl="52" sp="1000000" minLvl="74" />
+			<!-- Acrobatic Move -->
+			<skill id="225" lvl="2" sp="42000" minLvl="43" />
+			<skill id="225" lvl="3" sp="182000" minLvl="55" />
+			<!-- Sprint -->
+			<skill id="230" lvl="2" sp="136000" minLvl="52" />
+			<!-- Light Armor Mastery -->
+			<skill id="233" lvl="11" sp="12000" minLvl="40" />
+			<skill id="233" lvl="12" sp="12000" minLvl="40" />
+			<skill id="233" lvl="13" sp="12000" minLvl="40" />
+			<skill id="233" lvl="14" sp="14000" minLvl="43" />
+			<skill id="233" lvl="15" sp="14000" minLvl="43" />
+			<skill id="233" lvl="16" sp="14000" minLvl="43" />
+			<skill id="233" lvl="17" sp="17000" minLvl="46" />
+			<skill id="233" lvl="18" sp="17000" minLvl="46" />
+			<skill id="233" lvl="19" sp="17000" minLvl="46" />
+			<skill id="233" lvl="20" sp="30000" minLvl="49" />
+			<skill id="233" lvl="21" sp="30000" minLvl="49" />
+			<skill id="233" lvl="22" sp="30000" minLvl="49" />
+			<skill id="233" lvl="23" sp="45000" minLvl="52" />
+			<skill id="233" lvl="24" sp="45000" minLvl="52" />
+			<skill id="233" lvl="25" sp="45000" minLvl="52" />
+			<skill id="233" lvl="26" sp="61000" minLvl="55" />
+			<skill id="233" lvl="27" sp="61000" minLvl="55" />
+			<skill id="233" lvl="28" sp="61000" minLvl="55" />
+			<skill id="233" lvl="29" sp="67000" minLvl="58" />
+			<skill id="233" lvl="30" sp="67000" minLvl="58" />
+			<skill id="233" lvl="31" sp="67000" minLvl="58" />
+			<skill id="233" lvl="32" sp="132000" minLvl="60" />
+			<skill id="233" lvl="33" sp="132000" minLvl="60" />
+			<skill id="233" lvl="34" sp="170000" minLvl="62" />
+			<skill id="233" lvl="35" sp="170000" minLvl="62" />
+			<skill id="233" lvl="36" sp="220000" minLvl="64" />
+			<skill id="233" lvl="37" sp="220000" minLvl="64" />
+			<skill id="233" lvl="38" sp="270000" minLvl="66" />
+			<skill id="233" lvl="39" sp="270000" minLvl="66" />
+			<skill id="233" lvl="40" sp="350000" minLvl="68" />
+			<skill id="233" lvl="41" sp="350000" minLvl="68" />
+			<skill id="233" lvl="42" sp="420000" minLvl="70" />
+			<skill id="233" lvl="43" sp="420000" minLvl="70" />
+			<skill id="233" lvl="44" sp="550000" minLvl="72" />
+			<skill id="233" lvl="45" sp="550000" minLvl="72" />
+			<skill id="233" lvl="46" sp="1000000" minLvl="74" />
+			<skill id="233" lvl="47" sp="1000000" minLvl="74" />
+			<!-- Soul of Sagittarius -->
+			<skill id="303" lvl="1" sp="50000" minLvl="46" />
+			<skill id="303" lvl="2" sp="200000" minLvl="58" />
+			<skill id="303" lvl="3" sp="440000" minLvl="64" />
+			<skill id="303" lvl="4" sp="850000" minLvl="70" />
+			<!-- Vicious Stance -->
+			<skill id="312" lvl="6" sp="35000" minLvl="40" />
+			<skill id="312" lvl="7" sp="42000" minLvl="43" />
+			<skill id="312" lvl="8" sp="50000" minLvl="46" />
+			<skill id="312" lvl="9" sp="89000" minLvl="49" />
+			<skill id="312" lvl="10" sp="136000" minLvl="52" />
+			<skill id="312" lvl="11" sp="182000" minLvl="55" />
+			<skill id="312" lvl="12" sp="200000" minLvl="58" />
+			<skill id="312" lvl="13" sp="264000" minLvl="60" />
+			<skill id="312" lvl="14" sp="330000" minLvl="62" />
+			<skill id="312" lvl="15" sp="440000" minLvl="64" />
+			<skill id="312" lvl="16" sp="540000" minLvl="66" />
+			<skill id="312" lvl="17" sp="710000" minLvl="68" />
+			<skill id="312" lvl="18" sp="850000" minLvl="70" />
+			<skill id="312" lvl="19" sp="1090000" minLvl="72" />
+			<skill id="312" lvl="20" sp="2000000" minLvl="74" />
+			<!-- Quiver of Arrow: Grade A -->
+			<skill id="323" lvl="1" sp="540000" minLvl="66" />
+			<!-- Quiver of Arrow: Grade S -->
+			<skill id="324" lvl="1" sp="1090000" minLvl="72" />
+			<!-- Rapid Fire -->
+			<skill id="413" lvl="1" sp="264000" minLvl="60" />
+			<skill id="413" lvl="2" sp="330000" minLvl="62" />
+			<skill id="413" lvl="3" sp="440000" minLvl="64" />
+			<skill id="413" lvl="4" sp="540000" minLvl="66" />
+			<skill id="413" lvl="5" sp="710000" minLvl="68" />
+			<skill id="413" lvl="6" sp="850000" minLvl="70" />
+			<skill id="413" lvl="7" sp="1090000" minLvl="72" />
+			<skill id="413" lvl="8" sp="2000000" minLvl="74" />
+			<!-- Spirit of Sagittarius -->
+			<skill id="415" lvl="1" sp="200000" minLvl="58" />
+			<skill id="415" lvl="2" sp="540000" minLvl="66" />
+			<skill id="415" lvl="3" sp="2000000" minLvl="74" />
+			<!-- Blessing of Sagittarius -->
+			<skill id="416" lvl="1" sp="200000" minLvl="58" />
+			<skill id="416" lvl="2" sp="540000" minLvl="66" />
+			<skill id="416" lvl="3" sp="2000000" minLvl="74" />
+			<!-- Divine Inspiration -->
+			<skill id="1405" lvl="1" sp="0" minLvl="52" />
+			<skill id="1405" lvl="2" sp="0" minLvl="61" />
+		</skillTrees>
+	</class>
+	<class id="99" parentId="20">
+		<set name="className" val="Eva Templar" />
+		<set name="raceId" val="1" />
+		<set name="str" val="36" />
+		<set name="con" val="36" />
+		<set name="dex" val="35" />
+		<set name="int" val="23" />
+		<set name="wit" val="14" />
+		<set name="men" val="26" />
+		<set name="pAtk" val="4" />
+		<set name="pDef" val="80" />
+		<set name="mAtk" val="6" />
+		<set name="mDef" val="41" />
+		<set name="runSpd" val="125" />
+		<set name="spawnX" val="45978" />
+		<set name="spawnY" val="41196" />
+		<set name="spawnZ" val="-3440" />
+		<set name="radius" val="7" />
+		<set name="height" val="24" />
+		<set name="hp" val="3196.0" />
+		<set name="lvlHpAdd" val="66.4" />
+		<set name="lvlHpMod" val="0.37" />
+		<set name="cp" val="1917.6" />
+		<set name="lvlCpAdd" val="39.84" />
+		<set name="lvlCpMod" val="0.22" />
+		<set name="mp" val="1155.6" />
+		<set name="lvlMpAdd" val="39.84" />
+		<set name="lvlMpMod" val="0.22" />
+		<set name="baseLvl" val="76" />
+		<skillTrees>
+			<!-- Wisdom -->
+			<skill id="328" lvl="1" sp="10000000" minLvl="76" />
+			<!-- Health -->
+			<skill id="329" lvl="1" sp="10000000" minLvl="76" />
+			<!-- Fortitude -->
+			<skill id="335" lvl="1" sp="10000000" minLvl="76" />
+			<!-- Touch of Life -->
+			<skill id="341" lvl="1" sp="21340000" minLvl="78" />
+			<!-- Magical Mirror -->
+			<skill id="351" lvl="1" sp="21340000" minLvl="78" />
+			<!-- Shield Bash -->
+			<skill id="352" lvl="1" sp="13000000" minLvl="77" />
+			<!-- Vengeance -->
+			<skill id="368" lvl="1" sp="13000000" minLvl="77" />
+			<!-- Battle Force -->
+			<skill id="426" lvl="1" sp="13000000" minLvl="77" />
+			<!-- Knighthood -->
+			<skill id="429" lvl="1" sp="21340000" minLvl="78" />
+			<!-- Symbol of Defense -->
+			<skill id="454" lvl="1" sp="150000000" minLvl="80" />
+			<!-- Divine Inspiration -->
+			<skill id="1405" lvl="3" sp="0" minLvl="76" />
+			<skill id="1405" lvl="4" sp="0" minLvl="76" />
+		</skillTrees>
+	</class>
+	<class id="100" parentId="21">
+		<set name="className" val="Sword Muse" />
+		<set name="raceId" val="1" />
+		<set name="str" val="36" />
+		<set name="con" val="36" />
+		<set name="dex" val="35" />
+		<set name="int" val="23" />
+		<set name="wit" val="14" />
+		<set name="men" val="26" />
+		<set name="pAtk" val="4" />
+		<set name="pDef" val="80" />
+		<set name="mAtk" val="6" />
+		<set name="mDef" val="41" />
+		<set name="runSpd" val="125" />
+		<set name="spawnX" val="45978" />
+		<set name="spawnY" val="41196" />
+		<set name="spawnZ" val="-3440" />
+		<set name="radius" val="7" />
+		<set name="height" val="24" />
+		<set name="hp" val="3302.2" />
+		<set name="lvlHpAdd" val="69.72" />
+		<set name="lvlHpMod" val="0.37" />
+		<set name="cp" val="1651.1" />
+		<set name="lvlCpAdd" val="34.86" />
+		<set name="lvlCpMod" val="0.22" />
+		<set name="mp" val="1155.6" />
+		<set name="lvlMpAdd" val="34.86" />
+		<set name="lvlMpMod" val="0.22" />
+		<set name="baseLvl" val="76" />
+		<skillTrees>
+			<!-- Wisdom -->
+			<skill id="328" lvl="1" sp="12500000" minLvl="76" />
+			<!-- Health -->
+			<skill id="329" lvl="1" sp="12500000" minLvl="76" />
+			<!-- Song of Renewal -->
+			<skill id="349" lvl="1" sp="14670000" minLvl="77" />
+			<!-- Song of Meditation -->
+			<skill id="363" lvl="1" sp="14670000" minLvl="77" />
+			<!-- Song of Champion -->
+			<skill id="364" lvl="1" sp="32000000" minLvl="78" />
+			<!-- Battle Force -->
+			<skill id="426" lvl="1" sp="14670000" minLvl="77" />
+			<!-- Inner Rhythm -->
+			<skill id="428" lvl="1" sp="32000000" minLvl="78" />
+			<!-- Song of Silence -->
+			<skill id="437" lvl="1" sp="80000000" minLvl="79" />
+			<!-- Symbol of Noise -->
+			<skill id="455" lvl="1" sp="150000000" minLvl="80" />
+			<!-- Divine Inspiration -->
+			<skill id="1405" lvl="3" sp="0" minLvl="76" />
+			<skill id="1405" lvl="4" sp="0" minLvl="76" />
+		</skillTrees>
+	</class>
+	<class id="101" parentId="23">
+		<set name="className" val="Wind Rider" />
+		<set name="raceId" val="1" />
+		<set name="str" val="36" />
+		<set name="con" val="36" />
+		<set name="dex" val="35" />
+		<set name="int" val="23" />
+		<set name="wit" val="14" />
+		<set name="men" val="26" />
+		<set name="pAtk" val="4" />
+		<set name="pDef" val="80" />
+		<set name="mAtk" val="6" />
+		<set name="mDef" val="41" />
+		<set name="runSpd" val="125" />
+		<set name="spawnX" val="45978" />
+		<set name="spawnY" val="41196" />
+		<set name="spawnZ" val="-3440" />
+		<set name="radius" val="7" />
+		<set name="height" val="24" />
+		<set name="hp" val="2935.8" />
+		<set name="lvlHpAdd" val="59.76" />
+		<set name="lvlHpMod" val="0.37" />
+		<set name="cp" val="1614.5" />
+		<set name="lvlCpAdd" val="32.60" />
+		<set name="lvlCpMod" val="0.22" />
+		<set name="mp" val="1155.6" />
+		<set name="lvlMpAdd" val="25.9" />
+		<set name="lvlMpMod" val="0.22" />
+		<set name="baseLvl" val="76" />
+		<skillTrees>
+			<!-- Wisdom -->
+			<skill id="328" lvl="1" sp="12500000" minLvl="76" />
+			<!-- Skill Mastery -->
+			<skill id="330" lvl="1" sp="14670000" minLvl="77" />
+			<!-- Focus Skill Mastery -->
+			<skill id="334" lvl="1" sp="16000000" minLvl="78" />
+			<!-- Lethal Blow -->
+			<skill id="344" lvl="1" sp="12500000" minLvl="76" />
+			<!-- Focus Death -->
+			<skill id="355" lvl="1" sp="16000000" minLvl="78" />
+			<!-- Focus Chance -->
+			<skill id="356" lvl="1" sp="16000000" minLvl="78" />
+			<!-- Bluff -->
+			<skill id="358" lvl="1" sp="14670000" minLvl="77" />
+			<!-- Battle Force -->
+			<skill id="426" lvl="1" sp="14670000" minLvl="77" />
+			<!-- Assassination -->
+			<skill id="432" lvl="1" sp="16000000" minLvl="78" />
+			<!-- Dodge -->
+			<skill id="446" lvl="1" sp="80000000" minLvl="79" />
+			<!-- Symbol of the Assassin -->
+			<skill id="460" lvl="1" sp="150000000" minLvl="80" />
+			<!-- Divine Inspiration -->
+			<skill id="1405" lvl="3" sp="0" minLvl="76" />
+			<skill id="1405" lvl="4" sp="0" minLvl="76" />
+		</skillTrees>
+	</class>
+	<class id="102" parentId="24">
+		<set name="className" val="Moonlight Sentinel" />
+		<set name="raceId" val="1" />
+		<set name="str" val="36" />
+		<set name="con" val="36" />
+		<set name="dex" val="35" />
+		<set name="int" val="23" />
+		<set name="wit" val="14" />
+		<set name="men" val="26" />
+		<set name="pAtk" val="4" />
+		<set name="pDef" val="80" />
+		<set name="mAtk" val="6" />
+		<set name="mDef" val="41" />
+		<set name="runSpd" val="125" />
+		<set name="spawnX" val="45978" />
+		<set name="spawnY" val="41196" />
+		<set name="spawnZ" val="-3440" />
+		<set name="radius" val="7" />
+		<set name="height" val="24" />
+		<set name="hp" val="3042.0" />
+		<set name="lvlHpAdd" val="63.08" />
+		<set name="lvlHpMod" val="0.37" />
+		<set name="cp" val="1521.0" />
+		<set name="lvlCpAdd" val="31.54" />
+		<set name="lvlCpMod" val="0.22" />
+		<set name="mp" val="1155.6" />
+		<set name="lvlMpAdd" val="31.54" />
+		<set name="lvlMpMod" val="0.22" />
+		<set name="baseLvl" val="76" />
+		<skillTrees>
+			<!-- Wisdom -->
+			<skill id="328" lvl="1" sp="12500000" minLvl="76" />
+			<!-- Skill Mastery -->
+			<skill id="330" lvl="1" sp="14670000" minLvl="77" />
+			<!-- Focus Skill Mastery -->
+			<skill id="334" lvl="1" sp="21340000" minLvl="78" />
+			<!-- Lethal Shot -->
+			<skill id="343" lvl="1" sp="12500000" minLvl="76" />
+			<!-- Hamstring Shot -->
+			<skill id="354" lvl="1" sp="14670000" minLvl="77" />
+			<!-- Evade Shot -->
+			<skill id="369" lvl="1" sp="21340000" minLvl="78" />
+			<!-- Battle Force -->
+			<skill id="426" lvl="1" sp="14670000" minLvl="77" />
+			<!-- Archery -->
+			<skill id="431" lvl="1" sp="21340000" minLvl="78" />
+			<!-- Symbol of the Sniper -->
+			<skill id="459" lvl="1" sp="150000000" minLvl="80" />
+			<!-- Divine Inspiration -->
+			<skill id="1405" lvl="3" sp="0" minLvl="76" />
+			<skill id="1405" lvl="4" sp="0" minLvl="76" />
+		</skillTrees>
+	</class>
+</list>
